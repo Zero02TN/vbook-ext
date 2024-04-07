@@ -1,1 +1,1 @@
-const BASE_URL = 'https://zingtruyen.org';
+const BASE_URL = 'https://zingtruyen.one';
