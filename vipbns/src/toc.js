@@ -1,15 +1,14 @@
 load("config.js");
 
 function execute(url) {
-    let bookUrl = url.substring(0, url.indexOf(".html"));
-    let tocUrl = BASE_URL + url.substring(url.indexOf(".html") + 5, url.length);
-    let response = fetch(tocUrl);
+    const tocUrl = url.split('/api')[0]
+    let response = fetch(`${BASE_URL}/api${url.split('/api')[1]}`);
     if (response.ok) {
         let chapters = [];
         response.json().chapters.data.forEach(item => {
             chapters.push({
                 name: item.name,
-                url: bookUrl + '/' + item.slug + '/' + item.id + '.html',
+                url: tocUrl + '/chuong-' + item.chapter_number + '|' + item.id,
                 pay: item.price > 0,
             });
         });

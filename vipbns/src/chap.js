@@ -1,13 +1,13 @@
 function execute(url) {
-    let chapId = url.split(/[/.]+/)[7];
+    let chapId = url.split('|')[1];
     let browser = Engine.newBrowser();
-    browser.launch(url, 5000);
+    browser.launch(url.split('|')[0], 5000);
     browser.callJs("var authorization = window.localStorage.getItem('user'); var auth = document.createElement('auth'); auth.innerHTML = authorization; document.body.appendChild(auth);", 100);
     let auth = browser.html().select("auth").text();
     browser.close();
     if (auth) {
         let token = JSON.parse(auth).token;
-        let response = fetch('https://api.bachngocsach.vip/api/chapter/' + chapId, {
+        let response = fetch('https://bachngocsach.net.vn/api/chapter/'+chapId, {
             method: 'GET',
             headers: {
                 authorization: 'Bearer ' + token,
@@ -25,7 +25,7 @@ function execute(url) {
             }
         }
     } else {
-        let response = fetch('https://api.bachngocsach.vip/api/chapter/' + chapId);
+        let response = fetch('https://bachngocsach.net.vn/api/chapter/'+chapId);
         if (response.ok) {
             let data = response.json();
             if (!data || data.chapter.price > 0) {

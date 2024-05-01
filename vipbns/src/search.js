@@ -17,7 +17,7 @@ function execute(key, page) {
         json.data.forEach(item => {
             books.push({
                 name: item.name,
-                link: BASE_HOST + '/truyen/' + item.slug + '/' + item.id + '.html',
+                link: BASE_HOST + '/truyen/' + item.slug,
                 cover: item.cover,
                 description: item.author.name + ', ' + item.chapters_count + ' chương',
             });

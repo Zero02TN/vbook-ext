@@ -1,7 +1,7 @@
 load("config.js");
 function execute(url) {
-    let bookId = url.split('/').pop().split('.')[0];
-    let response = fetch(BASE_URL + "/api/story/" + bookId);
+    let slug = url.split('/').pop();
+    let response = fetch(`${BASE_URL}/api/story-by-slug/${slug}`);
     if (response.ok) {
         let json = response.json();
         let genres = [];
@@ -36,5 +36,5 @@ function execute(url) {
             ],
         });
     }
-    return Response.success(JSON.parse(json));
+    return Response.success('Many Request!');
 }

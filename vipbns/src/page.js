@@ -1,7 +1,8 @@
 load("config.js");
 
 function execute(url) {
-    const bookId = url.split('/').pop().split('.')[0];
+    let slug = url.split('/').pop();
+    let bookId = fetch(`${BASE_URL}/api/story-by-slug/${slug}`).json().id;
     let response = fetch(BASE_URL + "/api/story/" + bookId + "/chapter?per_page=50&page=1&order_by=asc");
     if (response.ok) {
         let pages = [];
