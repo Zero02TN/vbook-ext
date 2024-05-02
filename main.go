@@ -40,7 +40,7 @@ func main() {
 	fmt.Fprintln(mdFile, "## Link extension\n")
 	fmt.Fprintln(mdFile, "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/plugin.json\n\n")
 	fmt.Fprintln(mdFile, "##List\n")
-	fmt.Fprintln(mdFile, "| Name | Source | Version | Type |")
+	fmt.Fprintln(mdFile, "| Name | Source | Version | Lang |")
 	fmt.Fprintln(mdFile, "|------|--------|---------|------|")
 
 	// Walk through the subdirectories

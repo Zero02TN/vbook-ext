@@ -12,7 +12,7 @@ https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/plugin.json
 
 ##List
 
-| Name | Source | Version | Type |
+| Name | Source | Version | Lang |
 |------|--------|---------|------|
 | 123 Truyện | https://123truyencv.com/ | 11 | vi-VN | novel |
 | 19358 文学 | https://www.19358.net | 2 | zh-CN | chinese_novel |
