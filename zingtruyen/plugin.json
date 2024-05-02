@@ -2,9 +2,9 @@
   "metadata": {
     "name": "Zing Truyện",
     "author": "Nhocconsr",
-    "version": 4,
-    "source": "https://zingtruyen.one",
-    "regexp": "(www.)?zingtruyen.one/story/[0-9a-z-]+/\\d+.html",
+    "version": 5,
+    "source": "https://zingtruyen.asia",
+    "regexp": "(www.)?zingtruyen.asia/story/[0-9a-z-]+/\\d+.html",
     "description": "Nếu lỗi extention liên hệ email : Phamgiavang@gmail.com hoặc Discord trong Vbook",
     "locale": "vi-VN",
     "language": "javascript",

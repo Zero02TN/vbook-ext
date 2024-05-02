@@ -233,10 +233,10 @@
         "name": "Zing Truyện",
         "author": "Nhocconsr",
         "path": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/zingtruyen/plugin.zip",
-        "version": 4,
-        "source": "https://zingtruyen.one",
+        "version": 5,
+        "source": "https://zingtruyen.asia",
         "icon": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/zingtruyen/icon.png",
-        "description": "Đọc truyện trên trang Zingtruyen.one",
+        "description": "Đọc truyện trên trang Zingtruyen.asia",
         "type": "novel",
         "locale": "vi_VN"
         },
