@@ -9,7 +9,7 @@ function execute(url) {
             chapters.push({
                 name: item.name,
                 url: tocUrl + '/chuong-' + item.chapter_number + '|' + item.id,
-                pay: item.price > 0,
+                pay: item.price > 0
             });
         });
         return Response.success(chapters);

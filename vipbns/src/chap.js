@@ -2,11 +2,11 @@ function execute(url) {
     let chapId = url.split('|')[1];
     let browser = Engine.newBrowser();
     browser.launch(url.split('|')[0], 5000);
-    let response = fetch('https://bachngocsach.net.vn/api/chapter/'+chapId);
     browser.close();
+    let response = fetch('https://bachngocsach.net.vn/api/chapter/'+chapId);
     if (response.ok) {
         let data = response.json();
-        if (!data || data.chapter.bought === false) {
+        if (!data || data.errors) {
             return Response.error('Đây là chương mất tiền hoặc bạn chưa đăng nhập nick vào web bằng vbook. Đăng nhập rồi load lại nhé!');
         } else {
             let content = data.chapter.content.replace(/<!-- (.*?) -->/gm, '')
