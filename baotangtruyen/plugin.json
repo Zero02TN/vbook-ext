@@ -2,9 +2,9 @@
   "metadata": {
     "name": "Bảo Tàng Truyện",
     "author": "fusornat",
-    "version": 3,
-    "source": "https://baotangtruyengo.com",
-    "regexp": "https://baotangtruyengo.com/truyen-tranh/[0-9a-z-]+/?$",
+    "version": 4,
+    "source": "https://baotangtruyen10.com",
+    "regexp": "https://baotangtruyen10.com/truyen-tranh/[0-9a-z-]+/?$",
     "description": "Web Đọc Truyện Tranh Online lớn nhất VN ✔",
     "locale": "vi-VN",
     "language": "javascript",

@@ -1,6 +1,6 @@
 function execute(url) {
     let sid = url.split('-').pop()
-    let response = fetch("https://baotangtruyengo.com/Story/ListChapterByStoryID", {
+    let response = fetch("https://baotangtruyen10.com/Story/ListChapterByStoryID", {
         "method": "POST",
         "body": {StoryID: sid},
     });
@@ -11,7 +11,7 @@ function execute(url) {
         data.push({
             name: e.text(),
             url:  e.select('a' ).attr("href"),
-            host: "https:/baotangtruyengo.com"
+            host: "https:/baotangtruyen10.com"
         })
     )
     return Response.success(data.reverse()); 

@@ -1,6 +1,6 @@
 function execute(url, page) {
     if (!page) page = '1';
-    const doc = fetch('https://baotangtruyengo.com/home',{
+    const doc = fetch('https://baotangtruyen10.com/home',{
         method : "GET",
         queries : {
             page : page,
@@ -17,7 +17,7 @@ function execute(url, page) {
             link: e.select("h3 a").first().attr("href"),
             cover: e.select(".image img").first().attr("src"),
             description: e.select(".chapter a").first().text(),
-            host: "https://baotangtruyengo.com"
+            host: "https://baotangtruyen10.com"
         })
     }
     return Response.success(data,next)

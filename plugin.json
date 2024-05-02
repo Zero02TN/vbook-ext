@@ -166,10 +166,10 @@
         "name": "Bảo Tàng Truyện",
         "author": "fusonat",
         "path": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/baotangtruyen/plugin.zip",
-        "version": 3,
-        "source": "https://baotangtruyengo.com",
+        "version": 4,
+        "source": "https://baotangtruyen10.com",
         "icon": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/baotangtruyen/icon.png",
-        "description": "Đọc truyện trên trang baotangtruyengo.com",
+        "description": "Đọc truyện trên trang baotangtruyen10.com",
         "type": "comic",
         "locale": "vi_VN"
       },
@@ -332,17 +332,6 @@
         "locale": "zh_CN"
         },
         {
-        "name": "230Book",
-        "author": "Nhocconsr",
-        "path": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/230book/plugin.zip",
-        "version": 8,
-        "source": "http://www.230book.net",
-        "icon": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/230book/icon.png",
-        "description": "Đọc truyện trên trang www.230book.net",
-        "type": "chinese_novel",
-        "locale": "zh_CN"
-        },
-        {
         "name": "AC QQ",
         "author": "Nhocconsr",
         "path": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/acqq/plugin.zip",
@@ -365,17 +354,6 @@
         "locale": "zh_CN"
         },
         {
-        "name": "23Shu",
-        "author": "Nhocconsr",
-        "path": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/23shu/plugin.zip",
-        "version": 1,
-        "source": "https://www.23shu.com",
-        "icon": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/23shu/icon.png",
-        "description": "Đọc truyện trên trang 23shu.com",
-        "type": "chinese_novel",
-        "locale": "zh_CN"
-        },
-        {
         "name": "Mb TXT 【妙笔】",
         "author": "Nhocconsr",
         "path": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/mbtxt/plugin.zip",
@@ -383,28 +361,6 @@
         "source": "https://www.mbtxt.la",
         "icon": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/mbtxt/icon.png",
         "description": "Đọc truyện trên trang mbtxt.com",
-        "type": "chinese_novel",
-        "locale": "zh_CN"
-        },
-        {
-        "name": "9txs",
-        "author": "Nhocconsr",
-        "path": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/9txs/plugin.zip",
-        "version": 3,
-        "source": "https://9taoxs.com",
-        "icon": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/9txs/icon.png",
-        "description": "Đọc truyện trên trang 9taoxs.com",
-        "type": "chinese_novel",
-        "locale": "zh_CN"
-        },
-        {
-        "name": "250sy",
-        "author": "Nhocconsr",
-        "path": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/250sy/plugin.zip",
-        "version": 2,
-        "source": "https://www.250sy.net",
-        "icon": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/250sy/icon.png",
-        "description": "Đọc truyện trên trang 250sy.net",
         "type": "chinese_novel",
         "locale": "zh_CN"
         },
@@ -417,17 +373,6 @@
         "icon": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/manhuagui/icon.png",
         "description": "Đọc truyện trên trang manhuagui.com",
         "type": "comic",
-        "locale": "zh_CN"
-        },
-        {
-        "name": "19358 文学",
-        "author": "Nhocconsr",
-        "path": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/19358/plugin.zip",
-        "version": 2,
-        "source": "https://www.19358.net",
-        "icon": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/19358/icon.png",
-        "description": "Đọc truyện trên trang www.19358.net",
-        "type": "chinese_novel",
         "locale": "zh_CN"
         },
         {

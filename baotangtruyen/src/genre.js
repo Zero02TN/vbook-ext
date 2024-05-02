@@ -1,5 +1,5 @@
 function execute() {
-    const doc = fetch("https://baotangtruyengo.com/home").html()
+    const doc = fetch("https://baotangtruyen10.com/home").html()
     var list = doc.select('a.mb-hover-theloai')
     var data = []
     list.forEach(e => data.push({
