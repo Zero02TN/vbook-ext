@@ -5,15 +5,15 @@ Extensions cho app Vbook App.
 
 Tải app tại : [Vbook App Download](https://bit.ly/vbookapp)
 
-## Link extension:
+## Link extension
 
 https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/plugin.json
 
 
 ##List
 
-| Name | Source | Version | Author | Lang | Type |
-|------|--------|---------|--------|------|------|
+| Name | Source | Version | Type |
+|------|--------|---------|------|
 | 123 Truyện | https://123truyencv.com/ | 11 | vi-VN | novel |
 | 19358 文学 | https://www.19358.net | 2 | zh-CN | chinese_novel |
 | 20xs | https://www.20xs.org | 3 | zh-CN | chinese_novel |
@@ -113,3 +113,15 @@ https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/plugin.json
 | YuShuGu 【御书网】 | https://www.yushugu.net/ | 8 | zh-CN | chinese_novel |
 | Zing Truyện | https://zingtruyen.one | 4 | vi-VN | novel |
 | zTruyen | https://ztruyen.vn | 5 | vi-VN | novel |
+## Hướng dẫn cài đặt
+
+| 1.Mở phần mở rộng trong app                   | 2.Lựa chọn quản lý Extension URL        |
+| --------------------------------------------- | --------------------------------------- |
+| <img src='huongdan/extension.jpg' width='500'>| <img src='huongdan/add.jpg' width='500'>|
+* Sau đó nhập link:
+
+```
+https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/plugin.json
+```
+![alt](huongdan/adds.jpg)
+

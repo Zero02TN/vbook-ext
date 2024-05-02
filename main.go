@@ -37,11 +37,11 @@ func main() {
 	fmt.Fprintln(mdFile, "## Vbook Extensions\n")
 	fmt.Fprintln(mdFile, "Extensions cho app Vbook App.\n\n")
 	fmt.Fprintln(mdFile, "Tải app tại : [Vbook App Download](https://bit.ly/vbookapp)\n")
-	fmt.Fprintln(mdFile, "## Link extension:\n")
+	fmt.Fprintln(mdFile, "## Link extension\n")
 	fmt.Fprintln(mdFile, "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/plugin.json\n\n")
 	fmt.Fprintln(mdFile, "##List\n")
-	fmt.Fprintln(mdFile, "| Name | Source | Version | Author | Lang | Type |")
-	fmt.Fprintln(mdFile, "|------|--------|---------|--------|------|------|")
+	fmt.Fprintln(mdFile, "| Name | Source | Version | Type |")
+	fmt.Fprintln(mdFile, "|------|--------|---------|------|")
 
 	// Walk through the subdirectories
 	err = filepath.Walk(root, func(path string, info os.FileInfo, err error) error {
@@ -75,6 +75,13 @@ func main() {
 
 		return nil
 	})
+	fmt.Fprintln(mdFile, "## Hướng dẫn cài đặt\n")
+	fmt.Fprintln(mdFile, "| 1.Mở phần mở rộng trong app                   | 2.Lựa chọn quản lý Extension URL        |")
+	fmt.Fprintln(mdFile, "| --------------------------------------------- | --------------------------------------- |")
+	fmt.Fprintln(mdFile, "| <img src='huongdan/extension.jpg' width='500'>| <img src='huongdan/add.jpg' width='500'>|")
+	fmt.Fprintln(mdFile, "* Sau đó nhập link:\n")
+	fmt.Fprintln(mdFile, "```\nhttps://raw.githubusercontent.com/nhocconsr/vbook-ext/master/plugin.json\n```")
+	fmt.Fprintln(mdFile, "![alt](huongdan/adds.jpg)\n")
 
 	if err != nil {
 		panic(err)
