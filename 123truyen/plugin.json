@@ -2,9 +2,9 @@
   "metadata": {
     "name": "123 Truyện",
     "author": "Nhocconsr",
-    "version": 11,
-    "source": "https://123truyencv.com/",
-    "regexp": "(www.)?123truyen(.*?).com/[0-9a-z-]+",
+    "version": 12,
+    "source": "https://123truyenvn/",
+    "regexp": "(www.)?123truyen.vn/[0-9a-z-]+",
     "description": "Đổi domain bằng mã bổ sung",
     "locale": "vi-VN",
     "language": "javascript",
