@@ -2,7 +2,7 @@ function execute(url) {
     let chapId = url.split('|')[1];
     let browser = Engine.newBrowser();
     browser.launch(url.split('|')[0], 5000);
-    browser.callJs("var authorization = window.localStorage.getItem('user'); var auth = document.createElement('auth'); auth.innerHTML = authorization; document.body.appendChild(auth);", 100);
+    browser.callJs("var cookie = window.localStorage.getItem('user'); var auth = document.createElement('auth'); auth.innerHTML = authorization; document.body.appendChild(auth);", 100);
     let auth = browser.html().select("auth").text();
     browser.close();
     if (auth) {
