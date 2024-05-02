@@ -14,7 +14,7 @@ https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/plugin.json
 
 | Name | Source | Version | Lang |
 |------|--------|---------|------|
-| 123 Truyện | https://123truyenvn/ | 12 | vi-VN | novel |
+| 123 Truyện | https://123truyen.vn | 12 | vi-VN | novel |
 | 20xs | https://www.20xs.org | 3 | zh-CN | chinese_novel |
 | 265xs | https://265xs.com | 1 | zh-CN | chinese_novel |
 | 69Shu | https://www.69shu.io | 2 | zh-CN | chinese_novel |
@@ -83,7 +83,7 @@ https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/plugin.json
 | Vozer | https://vozer.vn | 1 | vi-VN | novel |
 | WebNovel (Novel) | https://www.webnovel.com | 1 | vi-VN | novel |
 | Wuxia World | https://www.wuxiaworld.com | 1 | en-EN | novel |
-| Zing Truyện | https://zingtruyen.one | 4 | vi-VN | novel |
+| Zing Truyện | https://zingtruyen.asia | 5 | vi-VN | novel |
 | zTruyen | https://ztruyen.vn | 5 | vi-VN | novel |
 ## Hướng dẫn cài đặt
 
