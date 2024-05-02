@@ -40,30 +40,6 @@
         "tag": "nsfw"
         },
         {
-        "name": "Góc Truyện Tranh",
-        "author": "Nhocconsr",
-        "path": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/goctruyentranh/plugin.zip",
-        "version": 6,
-        "source": "https://goctruyentranhvui.com",
-        "icon": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/goctruyentranh/icon.png",
-        "description": "Đọc truyện trên trang goctruyentranhvui.com",
-        "type": "comic",
-        "locale": "vi_VN",
-        "tag": "nsfw"
-        },
-        {
-        "name": "Đọc Truyện 3Q",
-        "author": "Nhocconsr",
-        "path": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/doctruyen3q/plugin.zip",
-        "version": 4,
-        "source": "https://doctruyen3qtv.net",
-        "icon": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/doctruyen3q/icon.png",
-        "description": "Đọc truyện trên trang doctruyen3qtv",
-        "type": "comic",
-        "locale": "vi_VN",
-        "tag": "nsfw"
-        },
-        {
         "name": "123 Truyện",
         "author": "Nhocconsr",
         "path": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/123truyen/plugin.zip",
@@ -254,28 +230,6 @@
         "locale": "vi_VN"
         },
         {
-        "name": "Truyện Cool",
-        "author": "Nhocconsr",
-        "path": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/truyencool/plugin.zip",
-        "version": 3,
-        "source": "https://truyencool.net",
-        "icon": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/truyencool/icon.png",
-        "description": "Đọc truyện trên trang truyencool.net",
-        "type": "comic",
-        "locale": "vi_VN"
-        },
-        {
-        "name": "Truyện Dịch",
-        "author": "Nhocconsr",
-        "path": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/truyendich/plugin.zip",
-        "version": 7,
-        "source": "https://www.truyendichh.net",
-        "icon": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/truyendich/icon.png",
-        "description": "Đọc truyện trên trang www.truyendichh.net",
-        "type": "novel",
-        "locale": "vi_VN"
-        },
-        {
         "name": "Zing Truyện",
         "author": "Nhocconsr",
         "path": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/zingtruyen/plugin.zip",
@@ -309,18 +263,6 @@
         "locale": "vi_VN"
         },
         {
-        "name": "Kho Truyện Tranh",
-        "author": "Nhocconsr",
-        "path": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/khotruyentranh/plugin.zip",
-        "version": 8,
-        "source": "https://khotruyentranhonline.net",
-        "icon": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/khotruyentranh/icon.png",
-        "description": "Đọc truyện trên trang khotruyentranhonline.net",
-        "type": "comic",
-        "locale": "vi_VN",
-        "tag": "nsfw"
-        },
-        {
         "name": "Qimao",
         "author": "Nhocconsr",
         "path": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/qimao/plugin.zip",
@@ -343,28 +285,6 @@
         "locale": "zh_CN"
         },
         {
-        "name": "YuShuGu 【御书网】",
-        "author": "Nhocconsr",
-        "path": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/yushubo/plugin.zip",
-        "version": 8,
-        "source": "https://www.yushugu.net",
-        "icon": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/yushubo/icon.png",
-        "description": "Đọc truyện trên trang yushugu.net, tiền thân yushubo",
-        "type": "chinese_novel",
-        "locale": "zh_CN"
-        },
-        {
-        "name": "Mb TXT 【妙笔】",
-        "author": "Nhocconsr",
-        "path": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/mbtxt/plugin.zip",
-        "version": 5,
-        "source": "https://www.mbtxt.la",
-        "icon": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/mbtxt/icon.png",
-        "description": "Đọc truyện trên trang mbtxt.com",
-        "type": "chinese_novel",
-        "locale": "zh_CN"
-        },
-        {
         "name": "Manhua Gui",
         "author": "Nhocconsr",
         "path": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/manhuagui/plugin.zip",
@@ -373,17 +293,6 @@
         "icon": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/manhuagui/icon.png",
         "description": "Đọc truyện trên trang manhuagui.com",
         "type": "comic",
-        "locale": "zh_CN"
-        },
-        {
-        "name": "Lanrenyuhai 【旧时光】",
-        "author": "Nhocconsr",
-        "path": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/lanrenyuhai/plugin.zip",
-        "version": 1,
-        "source": "https://www.lanrenyuhai.com",
-        "icon": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/lanrenyuhai/icon.png",
-        "description": "Đọc truyện trên trang lanrenyuhai.com",
-        "type": "chinese_novel",
         "locale": "zh_CN"
         },
         {
@@ -475,17 +384,6 @@
         "description": "Đọc truyện trên trang vietwriter.vn"
         },
         {
-        "name": "Thiên Hà Truyện",
-        "author": "Nhocconsr",
-        "path": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/thienhatruyen/plugin.zip",
-        "version": 2,
-        "source": "https://thienhatruyen.com",
-        "icon": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/thienhatruyen/icon.png",
-        "description": "Đọc truyện trên trang thienhatruyen.com",
-        "type": "comic",
-        "locale": "vi_VN"
-        },
-        {
         "name": "SachHayOnline",
         "author": "fusornat",
         "path": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/sachhayonline/plugin.zip",
@@ -502,24 +400,6 @@
         "source": "https://w.linovelib.com",
         "icon": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/linovelib/icon.png",
         "description": "Đọc truyện trên trang w.linovelib.com"
-        },
-        {
-        "name": "WebToonXYZ",
-        "author": "Nhocconsr",
-        "path": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/webtoonxyz/plugin.zip",
-        "version": 1,
-        "source": "https://www.webtoon.xyz",
-        "icon": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/webtoonxyz/icon.png",
-        "description": "Đọc truyện trên trang webtoon.xyz"
-        },
-        {
-        "name": "LiNovel 【轻小说文库】",
-        "author": "Nhocconsr",
-        "path": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/linovel/plugin.zip",
-        "version": 2,
-        "source": "https://www.linovel.net",
-        "icon": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/linovel/icon.png",
-        "description": "Đọc truyện trên trang linovel.net"
         },
         {
         "name": "Novel Buddy",
@@ -539,15 +419,6 @@
         "icon": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/tsumino/icon.png",
         "description": "Đọc truyện trên trang www.tsumino.com",
         "tag": "nsfw"
-        },
-        {
-        "name": "PTWXC 【飄天文學】",
-        "author": "Nhocconsr",
-        "path": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/ptwxc/plugin.zip",
-        "version": 1,
-        "source": "https://www.ptwxc.com",
-        "icon": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/ptwxc/icon.png",
-        "description": "Đọc truyện trên trang www.ptwxc.com"
         },
         {
         "name": "Dingdian 【顶点】",
@@ -607,15 +478,6 @@
         "description": "Đọc truyện trên trang Thichtruyen.vn"
         },
         {
-        "name": "Truyện Tiki",
-        "author": "Nhocconsr",
-        "path": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/truyentiki/plugin.zip",
-        "version": 3,
-        "source": "https://truyentiki.com",
-        "icon": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/truyentiki/icon.png",
-        "description": "Đọc truyện trên trang Truyentiki.com"
-        },
-        {
         "name": "Truyện Tranh LH",
         "author": "Nhocconsr",
         "path": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/truyentranhlh/plugin.zip",
@@ -632,24 +494,6 @@
         "source": "https://truyentranh.net",
         "icon": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/truyentranh/icon.png",
         "description": "Đọc truyện trên trang Truyentranh.net"
-        },
-        {
-        "name": "Truyện Nhiều",
-        "author": "Nhocconsr",
-        "path": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/truyennhieu/plugin.zip",
-        "version": 3,
-        "source": "https://truyennhieu.com",
-        "icon": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/truyennhieu/icon.png",
-        "description": "Đọc truyện trên trang Truyennhieu.com"
-        },
-        {
-        "name": "Truyện Wiki Com",
-        "author": "Nhocconsr",
-        "path": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/truyenwikicom/plugin.zip",
-        "version": 4,
-        "source": "https://truyenwki.com",
-        "icon": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/truyenwikicom/icon.png",
-        "description": "Đọc truyện trên trang truyenwiki.com"
         },
         {
         "name": "Truyện Z",
@@ -711,24 +555,6 @@
         "source": "https://b.faloo.com",
         "icon": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/bfaloo/icon.png",
         "description": "Đọc truyện trên trang b.faloo.com"
-        },
-        {
-        "name": "Shuquge",
-        "author": "Nhocconsr",
-        "path": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/shuquge/plugin.zip",
-        "version": 1,
-        "source": "https://www.shuquge.com",
-        "icon": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/shuquge/icon.png",
-        "description": "Đọc truyện trên trang shuquge.com"
-        },
-        {
-        "name": "Shu05",
-        "author": "Nhocconsr",
-        "path": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/shu05/plugin.zip",
-        "version": 1,
-        "source": "http://www.shu05.com",
-        "icon": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/shu05/icon.png",
-        "description": "Đọc truyện trên trang www.shu05.com"
         },
         {
         "name": "Imiaobige",
@@ -801,15 +627,6 @@
         "source": "https://docsach24.co",
         "icon": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/docsach24/icon.png",
         "description": "Docsach24."
-        },
-        {
-        "name": "tuoinung",
-        "author": "fusornat",
-        "path": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/tuoinung/plugin.zip",
-        "version": 1,
-        "source": "https://tuoinung.com",
-        "icon": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/tuoinung/icon.png",
-        "description": "Truyện sex hay với đầy đủ các thể loại: phá trinh, loạn luân, ngoại tình, bạo dâm, hiếp dâm, dâm hiệp, học sinh, giáo viên, sinh viên ...."
         },
         {
           "name": "8ternal",
