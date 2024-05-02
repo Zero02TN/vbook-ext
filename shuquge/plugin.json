@@ -6,7 +6,7 @@
     "source": "http://www.shuquge.com",
     "regexp": "(www.)?shuquge.com.*",
     "description": "Đọc truyện trên trang shuquge.com",
-    "local": "vi-VN",
+    "locale": "vi-VN",
     "language": "javascript",
     "type": "chinese_novel"
   },

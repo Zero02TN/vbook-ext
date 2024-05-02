@@ -6,7 +6,7 @@
     "source": "https://www.imiaobige.com",
     "regexp": "(www.)?(h5.)?imiaobige.com/novel/\\d+.html",
     "description": "Đọc truyện trên trang www.imiaobige.com",
-    "local": "vi-VN",
+    "locale": "vi-VN",
     "language": "javascript",
     "type": "chinese_novel"
   },

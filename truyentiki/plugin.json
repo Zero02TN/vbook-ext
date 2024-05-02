@@ -6,7 +6,7 @@
     "source": "https://truyentiki.com",
     "regexp": "(www.)?((truyentiki.com/[^/+]+/)|(truyentiki.com/[^/+]+))",
     "description": "Đọc truyện trên trang Truyentiki.com",
-    "local": "vi-VN",
+    "locale": "vi-VN",
     "language": "javascript",
     "type" : "novel"
   },

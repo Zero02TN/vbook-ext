@@ -6,7 +6,7 @@
     "source": "https://vietwriter.vn",
     "regexp": "(www.)?vietwriter.vn/[A-Za-z].+/?",
     "description": "Lỗi extension liên hệ email: phamgiavang@gmail.com",
-    "local": "vi-VN",
+    "locale": "vi-VN",
     "language": "javascript",
     "type": "novel"
   },

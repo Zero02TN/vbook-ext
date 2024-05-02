@@ -6,7 +6,7 @@
     "source": "https://bachngocsach.net.vn",
     "regexp": "(www.)?bachngocsach.net.vn/truyen/[0-9a-z-]+/?",
     "description": "V11 : Fix load chương! Còn lỗi thì gửi TK qua phamgiavang@gmail.com",
-    "local": "vi-VN",
+    "locale": "vi-VN",
     "language": "javascript",
     "type": "novel"
   },

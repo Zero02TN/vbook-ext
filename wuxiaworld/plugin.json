@@ -6,7 +6,7 @@
     "source": "https://www.wuxiaworld.com",
     "regexp": "(www.)?wuxiaworld.com.*",
     "description": "Đọc truyện trên trang www.wuxiaworld.com",
-    "local": "en-EN",
+    "locale": "en-EN",
     "language": "javascript",
     "type" : "novel"
   },

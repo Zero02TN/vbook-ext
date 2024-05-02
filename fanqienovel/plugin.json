@@ -6,7 +6,7 @@
     "source": "https://fanqienovel.com",
     "regexp": "(wwww.)?((fanqienovel.com/page/\\d+)|(fanqienovel.com/page/\\d+.*?))|api3-normal-lf.fqnovel.com/reading/bookapi/directory/all_items/.*",
     "description": "...........",
-    "local": "cn-CN",
+    "locale": "cn-CN",
     "language": "javascript",
     "type": "chinese_novel"
   },

@@ -6,7 +6,7 @@
     "source": "https://truyentranh.net",
     "regexp": "(www.)?truyentranh.net.*",
     "description": "Đọc truyện trên trang Truyentranh.net",
-    "local": "vi-VN",
+    "locale": "vi-VN",
     "language": "javascript",
     "type": "comic"
   },

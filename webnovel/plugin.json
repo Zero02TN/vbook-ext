@@ -6,7 +6,7 @@
     "source": "https://www.webnovel.com",
     "regexp": "(www.)?(m.)?webnovel.com/book/.*",
     "description": "Đọc truyện chữ tại www.webnovel.com. Chỉ đọc truyện chữ ^^!",
-    "local": "vi-VN",
+    "locale": "vi-VN",
     "language": "javascript",
     "type": "novel"
   },

@@ -2,7 +2,7 @@ load('crypto.js');
 function execute(url) {
     var browser = Engine.newBrowser();
     browser.launch(url, 5000);
-    browser.callJs("var authorization = window.localStorage.getItem('auth._token.local'); var auth = document.createElement('auth'); auth.innerHTML = authorization; document.body.appendChild(auth);", 100);
+    browser.callJs("var authorization = window.localStorage.getItem('auth._token.locale'); var auth = document.createElement('auth'); auth.innerHTML = authorization; document.body.appendChild(auth);", 100);
     let auth = browser.html().select("auth").text();
     browser.close();
     if(auth){

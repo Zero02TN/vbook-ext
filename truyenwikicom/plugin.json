@@ -6,7 +6,7 @@
     "source": "https://truyenwki.com/",
     "regexp": "(www.)?truyenwki.com/truyen/.*?",
     "description": "Đọc truyện trên trang truyenwki.com/",
-    "local": "vi-VN",
+    "locale": "vi-VN",
     "language": "javascript",
     "type": "novel"
   },

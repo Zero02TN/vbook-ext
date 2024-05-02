@@ -6,7 +6,7 @@
     "source": "https://vozer.vn",
     "regexp": "https://vozer.vn/(.*?)$",
     "description": "Truyện voz",
-    "local": "vi-VN",
+    "locale": "vi-VN",
     "language": "javascript",
     "type": "novel"
   },

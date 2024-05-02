@@ -6,7 +6,7 @@
     "source": "https://k.2kxs.org/",
     "regexp": "https://k.2kxs.org/\\d+_\\d+/",
     "description": "2k",
-    "local": "zh_CN",
+    "locale": "zh_CN",
     "language": "javascript",
     "type": "chinese_novel"
   },

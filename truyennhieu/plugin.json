@@ -6,7 +6,7 @@
     "source": "https://truyennhieu.com",
     "regexp": "(www.)?truyennhieu.com/[^/]+/?",
     "description": "Đọc truyện trên trang Truyennhieu.com",
-    "local": "vi-VN",
+    "locale": "vi-VN",
     "language": "javascript"
   },
   "script": {
