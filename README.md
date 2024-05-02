@@ -3,7 +3,7 @@
 Extensions cho app Vbook App.
 
 
-Tải app tại : [Vbook App Download](https://github.com/miru-project/miru-app)
+Tải app tại : [Vbook App Download](https://bit.ly/vbookapp)
 
 ## Link extension:
 

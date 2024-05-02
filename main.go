@@ -36,7 +36,7 @@ func main() {
 	// Write the table header to the markdown file
 	fmt.Fprintln(mdFile, "## Vbook Extensions\n")
 	fmt.Fprintln(mdFile, "Extensions cho app Vbook App.\n\n")
-	fmt.Fprintln(mdFile, "Tải app tại : [Vbook App Download](https://github.com/miru-project/miru-app)\n")
+	fmt.Fprintln(mdFile, "Tải app tại : [Vbook App Download](https://bit.ly/vbookapp)\n")
 	fmt.Fprintln(mdFile, "## Link extension:\n")
 	fmt.Fprintln(mdFile, "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/plugin.json\n\n")
 	fmt.Fprintln(mdFile, "##List\n")
