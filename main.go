@@ -11,7 +11,6 @@ import (
 // Metadata represents the metadata section of plugin.json
 type Metadata struct {
 	Name    string `json:"name"`
-	Author  string `json:"author"`
 	Version int    `json:"version"`
 	Source  string `json:"source"`
 	Lang    string `json:"locale"`
@@ -42,7 +41,7 @@ func main() {
 	fmt.Fprintln(mdFile, "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/plugin.json\n\n")
 	fmt.Fprintln(mdFile, "##List\n")
 	fmt.Fprintln(mdFile, "| Name | Source | Version | Author | Lang | Type |")
-	fmt.Fprintln(mdFile, "|------|--------|---------|-----  -|------|------|")
+	fmt.Fprintln(mdFile, "|------|--------|---------|--------|------|------|")
 
 	// Walk through the subdirectories
 	err = filepath.Walk(root, func(path string, info os.FileInfo, err error) error {
@@ -71,7 +70,7 @@ func main() {
 			// fmt.Fprintf(mdFile, "- **Version**: %d\n", plugin.Metadata.Version)
 			// fmt.Fprintf(mdFile, "- **Source**: %s\n", plugin.Metadata.Source)
 			// fmt.Fprintf(mdFile, "- **Description**: %s\n\n", plugin.Metadata.Description)
-			fmt.Fprintf(mdFile, "| %s | %s | %d | %s | %s | %s |\n", plugin.Metadata.Name, plugin.Metadata.Source, plugin.Metadata.Version, plugin.Metadata.Author, plugin.Metadata.Lang, plugin.Metadata.Type)
+			fmt.Fprintf(mdFile, "| %s | %s | %d | %s | %s |\n", plugin.Metadata.Name, plugin.Metadata.Source, plugin.Metadata.Version, plugin.Metadata.Lang, plugin.Metadata.Type)
 		}
 
 		return nil
