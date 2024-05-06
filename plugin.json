@@ -330,6 +330,17 @@
         "locale": "zh_CN"
         },
         {
+        "name": "Myrics",
+        "author": "Nhocconsr",
+        "path": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/myrics/plugin.zip",
+        "version": 1,
+        "source": "https://myrics.com",
+        "icon": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/myrics/icon.png",
+        "description": "Đọc truyện trên trang myrics.com",
+        "type": "chinese_novel",
+        "locale": "zh_CN"
+        },
+        {
         "name": "20xs",
         "author": "Nhocconsr",
         "path": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/20xs/plugin.zip",
