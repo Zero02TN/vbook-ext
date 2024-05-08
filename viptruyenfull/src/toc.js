@@ -7,7 +7,7 @@ function execute(url) {
         let allChap = json.list.reverse()
         let list = [];
         allChap.forEach(chap => {
-            let buy = chap.price > 0 === false ? true : false;
+            let buy = chap.price > 0 === true ? true : false;
             list.push({
                 name: chap.name,
                 url: url+'/'+chap.chapterString,

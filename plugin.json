@@ -51,6 +51,17 @@
         "locale": "vi_VN"
         },
         {
+        "name": "VIP Truyện Full",
+        "author": "Nhocconsr",
+        "path": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/viptruyenfull/plugin.zip",
+        "version": 1,
+        "source": "https://viptruyenfull.com",
+        "icon": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/viptruyenfull/icon.png",
+        "description": "Đọc truyện trên trang https://viptruyenfull.com",
+        "type": "novel",
+        "locale": "vi_VN"
+        },
+        {
         "name": "Truyện Tiên Hiệp",
         "author": "Nhocconsr",
         "path": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/truyentienhiep/plugin.zip",
