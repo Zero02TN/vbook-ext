@@ -2,7 +2,7 @@
   "metadata": {
     "name": "VIP Truyện Full",
     "author": "Nhocconsr",
-    "version": 1,
+    "version": 2,
     "source": "https://viptruyenfull.com",
     "regexp": "(www.)?viptruyenfull.com/[0-9a-z-]+/?$",
     "description": "Để đọc cần đăng nhập nhé!",

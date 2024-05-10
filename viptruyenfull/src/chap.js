@@ -6,7 +6,7 @@ function execute(url) {
     let $ = Html.parse(getDecryptedCode(res))
     let content = $.select('body').html()
         .replace(/&(nbsp|amp|quot|lt|gt|bp|emsp);/g, "")
-        .replace(/<h([1-6])[^>]*>([\s\S]+?)<\/h\1>/gi, "")
+        .replace(/<h([1-6])[^>]*>([\s\S]+?)<\/h\1>/, "")
         .replace(/<[^>]*>?/gm, '')
         .replace(/\n/gi, "<br>")
         .replace(/VIPtruyenfull.com/gi, "")
