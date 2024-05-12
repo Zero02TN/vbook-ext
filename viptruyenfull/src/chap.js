@@ -1,7 +1,7 @@
 load('crypto.js');
 function execute(url) {
     const slug = url.substring(url.indexOf("m/") + 2, url.lastIndexOf("/c"));
-    const chapId = url.match(/\d+/)[0];
+    const chapId = url.split('/').pop().split('-').pop();
     let res = fetch(`https://api.viptruyenfull.com/api/v1/chapters/get-chapter/${slug}/${chapId}`).json().data.content;
     let $ = Html.parse(getDecryptedCode(res))
     let content = $.select('body').html()
