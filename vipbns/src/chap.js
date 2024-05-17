@@ -1,6 +1,6 @@
 load('config.js');
 function execute(url) {
-    let chapId = url.split('|')[1];a
+    let chapId = url.split('|')[1];
     if (B_TOKEN) {
         let response = fetch('https://ngocsach.com/api/chapter-app/'+chapId, {
             method: 'GET',
