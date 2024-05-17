@@ -2,10 +2,10 @@
   "metadata": {
     "name": "【VIP】Bạch Ngọc Sách",
     "author": "Nhocconsr",
-    "version": 11,
+    "version": 12,
     "source": "https://bachngocsach.net.vn",
     "regexp": "(www.)?bachngocsach.net.vn/truyen/[0-9a-z-]+/?",
-    "description": "V11 : Fix load chương! Còn lỗi thì gửi TK qua phamgiavang@gmail.com",
+    "description": "Thêm mã như sau vào <br> let CONFIG_TOKEN = 'Nhập mã token từ tài khoản của bạn'<br>Còn token thì xài kiwibrowser đăng nhập xong tự lấy token nhé!",
     "locale": "vi-VN",
     "language": "javascript",
     "type": "novel"
