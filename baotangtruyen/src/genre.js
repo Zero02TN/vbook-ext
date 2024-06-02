@@ -1,6 +1,7 @@
+load('config.js')
 function execute() {
-    const doc = fetch("https://baotangtruyen10.com/home").html()
-    var list = doc.select('a.mb-hover-theloai')
+    const doc = fetch(BASE_URL).html()
+    var list = doc.select('.link-footer ul li')
     var data = []
     list.forEach(e => data.push({
         title: e.text(),

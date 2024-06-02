@@ -153,10 +153,10 @@
         "name": "Bảo Tàng Truyện",
         "author": "fusonat",
         "path": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/baotangtruyen/plugin.zip",
-        "version": 4,
-        "source": "https://baotangtruyen10.com",
+        "version": 5,
+        "source": "https://baotangtruyen13.com",
         "icon": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/baotangtruyen/icon.png",
-        "description": "Đọc truyện trên trang baotangtruyen10.com",
+        "description": "Đọc truyện trên trang baotangtruyen13.com",
         "type": "comic",
         "locale": "vi_VN"
       },
@@ -304,6 +304,17 @@
         "icon": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/manhuagui/icon.png",
         "description": "Đọc truyện trên trang manhuagui.com",
         "type": "comic",
+        "locale": "zh_CN"
+        },
+        {
+        "name": "言情小说阁 (APP)",
+        "author": "Nhocconsr",
+        "path": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/maoyankanshu/plugin.zip",
+        "version": 1,
+        "source": "http://www.xianqihaotianmi.org",
+        "icon": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/maoyankanshu/icon.png",
+        "description": "Đọc truyện trên trang www.xianqihaotianmi.org",
+        "type": "novel",
         "locale": "zh_CN"
         },
         {

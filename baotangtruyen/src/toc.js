@@ -1,6 +1,7 @@
+load('config.js')
 function execute(url) {
     let sid = url.split('-').pop()
-    let response = fetch("https://baotangtruyen10.com/Story/ListChapterByStoryID", {
+    let response = fetch(BASE_URL+"/Story/ListChapterByStoryID", {
         "method": "POST",
         "body": {StoryID: sid},
     });
@@ -11,7 +12,7 @@ function execute(url) {
         data.push({
             name: e.text(),
             url:  e.select('a' ).attr("href"),
-            host: "https:/baotangtruyen10.com"
+            host: BASE_URL
         })
     )
     return Response.success(data.reverse()); 

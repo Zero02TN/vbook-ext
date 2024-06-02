@@ -1,3 +1,4 @@
+load('config.js')
 function execute(url) {
     const doc = fetch(url).html()
     return Response.success({
@@ -6,6 +7,6 @@ function execute(url) {
         description: doc.select("#summary").text(),
         detail: doc.select(".list-info .status").html(),
         category: doc.select(".col-xs-12 .tr-theloai").html(),
-        host: "https://baotangtruyen10.com"
+        host: BASE_URL
     });
 }
