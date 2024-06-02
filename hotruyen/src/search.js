@@ -1,10 +1,7 @@
 function execute(key, page) {
     if (!page) page = '1';
-    const doc = Http.get('https://hotruyen.com/tim-truyen').params({
-        sn: key,
-        pg : page,
-    }).html()
-
+    const response = fetch(`https://hotruyen1.com/tim-truyen?sn=${key}&pg=${page}`)
+    let doc = response.html()
     var next = doc.select(".pagination").select("li.active + li").text()
 
     const el = doc.select("#searchresult .sitem")

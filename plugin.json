@@ -233,10 +233,10 @@
         "name": "Hố Truyện",
         "author": "Nhocconsr",
         "path": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/hotruyen/plugin.zip",
-        "version": 4,
-        "source": "https://hotruyen.com",
+        "version": 5,
+        "source": "https://hotruyen1.com",
         "icon": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/hotruyen/icon.png",
-        "description": "Đọc truyện trên trang Hotruyen.com",
+        "description": "Đọc truyện trên trang Hotruyen1.com",
         "type": "novel",
         "locale": "vi_VN"
         },

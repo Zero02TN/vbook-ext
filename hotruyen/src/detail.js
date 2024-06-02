@@ -1,3 +1,4 @@
+load('config.js')
 function execute(url) {
     let response = fetch(url);
     if(response.ok){
@@ -8,7 +9,7 @@ function execute(url) {
             author: doc.select(".dinfo > div:nth-child(2) > span").first().text(),
             description: doc.select("#des-info").html(),
             detail: doc.select(".dinfo > div:nth-child(2)").html()+'<br>'+doc.select(".dinfo > div:nth-child(3)").html(),
-            host: "https://hotruyen.com"
+            host: BASE_URL
         });
     }
 }
