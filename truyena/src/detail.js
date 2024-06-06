@@ -1,13 +1,15 @@
 function execute(url) {
-    let response = fetch(url + '/');
+    let slug = url.split('/').pop()
+    let response = fetch(`https://truyena.net/_next/data/liC7PPLgTtFgvW9VzBczS/${slug}.json?bookSlug=${slug}`);
     if(response.ok){
-        let doc = response.html();
+        let book = response.json().pageProps.book;
         return Response.success({
-            name: doc.select("h1.story-title").first().text(),
-            cover: doc.select("img.book_cover").first().attr('src').replace('//','https://'),
-            author: doc.select(".book_info a[href~=tac-gia]").first().text() || 'Unknown',
-            description: doc.select("#story_description").html().replace(/<div id="func-btns">(.*?)<\/div>/g, ''),
-            detail: doc.select("table > tbody > tr:nth-child(1)").html()+'<br>'+doc.select("table > tbody > tr:nth-child(3)").html()+'<br>'+doc.select("table > tbody > tr:nth-child(4)").html(),
+            name: book.title,
+            cover: `https://cdn.truyena.net/a/img/str/300x390/${book.img}`,
+            author: book.author.name,
+            description: book.description,
+            detail: book.titleCN +'<br>'+book.chapterCount+' chương',
+            ongoing : book.status === 0,
             host: "https://truyena.net",
         });
     }

@@ -1,16 +1,16 @@
 function execute(url) {
-    var doc = fetch(url).html();
-    var el = doc.select("#section2 .story-chapter-list li a");
-    const data = [];
-    el.forEach(e => {
-        var title = e.attr('title')
-        if(title){
-            data.push({
-                name: e.text(),
-                url: e.attr("href"),
-                host: "https://truyena.net"
-            })
-        }
-    });
-    return Response.success(data);
+    let sid = url.match(/\d+/)
+    let response = fetch(url);
+    if (response.ok) {
+        let chapters = [];
+        response.json().chapters.forEach(item => {
+            chapters.push({
+                name: item.title,
+                url: `https://truyena.net/api?ctl=chapter&func=getContent&bookId=${sid}&index=${item.index}&force=0`
+
+            });
+        });
+        return Response.success(chapters);
+    }
+    return Response.success(sid);
 }

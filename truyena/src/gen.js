@@ -1,19 +1,26 @@
 function execute(url, page) {
     if (!page) page = '0';
-    let response = fetch(url+'&page='+page);
-    if(response.ok){
-        let doc = response.html()
-        var next = doc.select('.pagination').select('li.active + li').text();
-        let el = doc.select(".story-list .row")
-        let data = [];
-        el.forEach(e => data.push({
-                name: e.select(".story-list-title").first().text(),
-                link: e.select(".story-list-title a").first().attr("href"),
-                cover: 'https://truyena.net'+e.select(".imgThumb img").first().attr("src"),
-                description: e.select("a[href~=tac-gia]").first().text(),
-                host: "https://truyena.net"
-            }));
-        return Response.success(data, next)
+    let response = fetch(url + "&page=" + page);
+    if (response.ok) {
+        let json = response.json();
+        let currentPage = json.pageProps.pager.page;
+        let lastPage = json.pageProps.pager.limit;
+        let books = [];
+        json.pageProps.books.forEach(item => {
+            let nslug = item.slug.replace(/ /g, "-")
+            books.push({
+                name: item.title,
+                link: nslug+'.' + item._id,
+                cover: `https://cdn.truyena.net/a/img/str/100x120/${item.img}`,
+                description: item.author.name + ', ' + item.chapterCount + ' chương',
+            });
+        });
+        if (currentPage < lastPage) {
+
+            return Response.success(books, (currentPage + 1) + "");
+        }
+
+        return Response.success(books);
     }
     return null;
 }
