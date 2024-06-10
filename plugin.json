@@ -19,10 +19,10 @@
         "name": "LxHentai",
         "author": "Nhocconsr",
         "path": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/lxhentai/plugin.zip",
-        "version": 8,
-        "source": "https://lxmanga88.com",
+        "version": 9,
+        "source": "https://lxmanga.cfd",
         "icon": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/lxhentai/icon.png",
-        "description": "Đọc truyện trên trang Lxhentai.com",
+        "description": "Đọc truyện trên trang Lxhentai",
         "tag": "nsfw",
         "type": "comic",
         "locale": "vi_VN"
