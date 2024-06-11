@@ -307,17 +307,6 @@
         "locale": "zh_CN"
         },
         {
-        "name": "言情小说阁 (APP)",
-        "author": "Nhocconsr",
-        "path": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/maoyankanshu/plugin.zip",
-        "version": 1,
-        "source": "http://www.xianqihaotianmi.org",
-        "icon": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/maoyankanshu/icon.png",
-        "description": "Đọc truyện trên trang www.xianqihaotianmi.org",
-        "type": "novel",
-        "locale": "zh_CN"
-        },
-        {
         "name": "Hetushu 和图书",
         "author": "Nhocconsr",
         "path": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/hetushu/plugin.zip",
