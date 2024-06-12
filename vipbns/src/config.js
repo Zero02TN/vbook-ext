@@ -6,6 +6,9 @@ try {
     if (CONFIG_TOKEN) {
         B_TOKEN = CONFIG_TOKEN;
     }
+} catch (error) {
+}
+try {
     if (CONFIG_URL) {
         BASE_URL = CONFIG_URL;
     }
