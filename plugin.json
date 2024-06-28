@@ -16,6 +16,17 @@
         "locale": "vi_VN"
         },
         {
+        "name": "LightNovel VN",
+        "author": "Nhocconsr",
+        "path": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/lightnovel/plugin.zip",
+        "version": 10,
+        "source": "https://lightnovel.vn",
+        "icon": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/lightnovel/icon.png",
+        "description": "Đọc truyện trên trang lightnovel",
+        "type": "novel",
+        "locale": "vi_VN"
+        },
+        {
         "name": "LxHentai",
         "author": "Nhocconsr",
         "path": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/lxhentai/plugin.zip",
@@ -183,17 +194,6 @@
         "type": "comic",
         "locale": "vi_VN",
         "tag": "nsfw"
-        },
-        {
-        "name": "GetTruyen",
-        "author": "Nhocconsr",
-        "path": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/gettruyen/plugin.zip",
-        "version": 4,
-        "source": "https://taitruyen.org",
-        "icon": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/gettruyen/icon.png",
-        "description": "Đọc truyện trên trang taitruyen.org tiền thân là gettruyen",
-        "type": "novel",
-        "locale": "vi_VN"
         },
         {
         "name": "CManga",
