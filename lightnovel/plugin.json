@@ -8,7 +8,7 @@
     "description": "LightNovel En",
     "locale": "vi_VN",
     "language": "javascript",
-    "encrypt": true
+    "type": "novel"
   },
   "script": {
     "detail": "detail.js",
