@@ -207,6 +207,18 @@
         "tag": "nsfw"
         },
         {
+        "name": "Tranh 18",
+        "author": "Nhocconsr",
+        "path": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/tranh18/plugin.zip",
+        "version": 1,
+        "source": "https://tranh18.com",
+        "icon": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/tranh18/icon.png",
+        "description": "Đọc truyện trên trang tranh18.com",
+        "type": "comic",
+        "locale": "vi_VN",
+        "tag": "nsfw"
+        },
+        {
         "name": "CManga",
         "author": "Nhocconsr",
         "path": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/cmangatop/plugin.zip",
