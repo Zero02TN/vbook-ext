@@ -12,7 +12,7 @@ function execute(url, page) {
         "vars[post_status]": "publish",
         "vars[meta_key]": "_latest_update",
         "vars[wp-manga-genre]": cat,
-        "vars[manga_archives_item_layout]": "big_thumbnail"
+        "vars[manga_archives_item_layout]": "default"
     }).html()
 
 

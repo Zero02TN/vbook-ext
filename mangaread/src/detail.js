@@ -6,7 +6,7 @@ function execute(url) {
         author: doc.select(".author-content a").first().text(),
         description: doc.select(".summary__content p").first().html(),
         detail:doc.select(".post-content .post-content_item .summary-content").get(2).html()+'<br>Tác giả : '+doc.select(".post-content .post-content_item .summary-content").get(3).text(),
-        ongoing: doc.select(".post-status").html().indexOf("Đang tiến hành") != -1,
-        host: "https://truyenz.info"
+        ongoing: doc.select(".post-status").html().indexOf("OnGoing") != -1,
+        host: "https://www.mangaread.org"
     });
 }
