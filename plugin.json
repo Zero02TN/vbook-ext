@@ -535,24 +535,6 @@
         "description": "Đọc truyện trên trang Thichtruyen.vn"
         },
         {
-        "name": "Truyện Tranh LH",
-        "author": "Nhocconsr",
-        "path": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/truyentranhlh/plugin.zip",
-        "version": 2,
-        "source": "https://truyentranhlh.net",
-        "icon": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/truyentranhlh/icon.png",
-        "description": "Đọc truyện trên trang Truyentranhlh.net"
-        },
-        {
-        "name": "Truyện Tranh Net",
-        "author": "Nhocconsr",
-        "path": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/truyentranh/plugin.zip",
-        "version": 1,
-        "source": "https://truyentranh.net",
-        "icon": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/truyentranh/icon.png",
-        "description": "Đọc truyện trên trang Truyentranh.net"
-        },
-        {
         "name": "Truyện Z",
         "author": "Nhocconsr",
         "path": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/truyenz/plugin.zip",
