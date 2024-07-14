@@ -1,16 +1,6 @@
 function execute(key, page) {
     if (!page) page = '1';
-    const doc = Http.post('https://www.mangaread.org/wp-admin/admin-ajax.php').params({
-        "action": "madara_load_more",
-        "page": page,
-        "template": "madara-core/content/content-search",
-        "vars[s]": key,
-        "vars[paged]": "1",
-        "vars[template]": "search",
-        "vars[post_type]": "wp-manga",
-        "vars[post_status]": "publish",
-        "vars[manga_archives_item_layout]": "big_thumbnail"
-    }).html()
+    const doc = fetch(`https://www.mangaread.org/?s=${key}&post_type=wp-manga`).html()
 
     const el = doc.select(".c-tabs-item__content")
 
@@ -26,5 +16,5 @@ function execute(key, page) {
         })
     }
 
-    return Response.success(data, parseInt(page) + 1)
+    return Response.success(data)
 }
