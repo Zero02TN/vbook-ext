@@ -409,6 +409,18 @@
         "tag": "nsfw"
         },
         {
+        "name": "Manga Read",
+        "author": "Nhocconsr",
+        "path": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/mangaread/plugin.zip",
+        "version": 1,
+        "source": "https://www.mangaread.org",
+        "icon": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/mangaread/icon.png",
+        "description": "Đọc truyện trên trang mangaread.org",
+        "type": "comic",
+        "locale": "en_EN",
+        "tag": "nsfw"
+        },
+        {
         "name": "MTL Nation",
         "author": "Nhocconsr",
         "path": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/mtlnation/plugin.zip",
