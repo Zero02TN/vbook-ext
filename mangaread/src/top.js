@@ -18,8 +18,7 @@ function execute(url, page) {
     }).html();
     const data = [];
     var el = doc.select(".page-listing-item .page-item-detail")
-    for (var i = 0; i < el.size(); i++) {
-        var e = el.get(i)
+    el.forEach(e =>{
         data.push({
             name: e.select("h3.h5 a").first().text(),
             link: e.select("h3.h5 a").first().attr("href"),
@@ -27,7 +26,6 @@ function execute(url, page) {
             description: e.select(".list-chapter > div:nth-child(1) a").text(),
             host: "https://www.mangaread.org"
         })
-    }
-
+    });
     return Response.success(data, parseInt(page) + 1 + "")
 }
