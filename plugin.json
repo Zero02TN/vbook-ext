@@ -27,6 +27,17 @@
         "locale": "vi_VN"
         },
         {
+        "name": "TYT Novel",
+        "author": "Nhocconsr",
+        "path": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/tytnovel/plugin.zip",
+        "version": 1,
+        "source": "https://tytnovel.xyz",
+        "icon": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/tytnovel/icon.png",
+        "description": "Đọc truyện trên trang tytnovel",
+        "type": "novel",
+        "locale": "vi_VN"
+        },
+        {
         "name": "MonkeyD VN",
         "author": "Nhocconsr",
         "path": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/monkeyd/plugin.zip",
