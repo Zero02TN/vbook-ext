@@ -2,10 +2,10 @@
   "metadata": {
     "name": "【VIP】Bạch Ngọc Sách",
     "author": "Nhocconsr",
-    "version": 12,
+    "version": 13,
     "source": "https://bachngocsach.net.vn",
     "regexp": "(www.)?bachngocsach.net.vn/truyen/[0-9a-z-]+/?",
-    "description": "Thêm mã như sau vào <br> let CONFIG_TOKEN = 'Nhập mã token từ tài khoản của bạn'<br>Còn token thì xài kiwibrowser đăng nhập xong tự lấy token nhé!",
+    "description": "Thêm mã như sau vào <br> let CONFIG_TOKEN = 'Nhập mã __Secure-next-auth.session-token từ tài khoản của bạn'<br>Còn token thì xài kiwibrowser đăng nhập xong tự lấy token nhé!",
     "locale": "vi-VN",
     "language": "javascript",
     "type": "novel"
