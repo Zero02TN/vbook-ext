@@ -61,6 +61,18 @@
         "locale": "vi_VN"
         },
         {
+        "name": "Fast Scan",
+        "author": "Nhocconsr",
+        "path": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/fastscans/plugin.zip",
+        "version": 1,
+        "source": "https://fastscans.net",
+        "icon": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/fastscans/icon.png",
+        "description": "Đọc truyện trên trang fastscans.net",
+        "type": "comic",
+        "locale": "vi_VN",
+        "tag": "nsfw"
+        },
+        {
         "name": "Truyện Gì Hot",
         "author": "Nhocconsr",
         "path": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/truyengihot/plugin.zip",

@@ -1,0 +1,21 @@
+{
+  "metadata": {
+    "name": "Fast Scan",
+    "author": "Nhocconsr",
+    "version": 1,
+    "source": "https://fastscans.net",
+    "regexp": "(www.)?fastscans.net/truyen-tranh/[0-9a-z-]+",
+    "description": "Chỉ hỗ trợ lấy truyện đã mở! Nếu có Premium thì liên hệ",
+    "locale": "vi_VN",
+    "language": "javascript",
+    "type": "comic"
+  },
+  "script": {
+    "home": "home.js",
+    "genre": "genre.js",
+    "detail": "detail.js",
+    "search": "search.js",
+    "toc": "toc.js",
+    "chap": "chap.js"
+  }
+}
