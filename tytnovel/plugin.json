@@ -2,7 +2,7 @@
   "metadata": {
     "name": "TYT Novel",
     "author": "Nhocconsr",
-    "version": 1,
+    "version": 2,
     "source": "https://tytnovel.xyz",
     "regexp": "(www.)?tytnovel.xyz/[0-9a-z]+/([0-9a-z-]+)?$",
     "description": "TYT Novel APP",

@@ -14,7 +14,8 @@ function execute(url) {
         let pages = [];
         let allP = response.json().data.chapter_count/100;
         if (allP < 1){
-            return Response.success(`${BASE_HOST}/api/v2/chapters/numbers?story_id=${sid}&start=0&end=100`);
+            pages.push(`${BASE_HOST}/api/v2/chapters/numbers?story_id=${sid}&start=0&end=100`)
+            return Response.success(pages);
         }else{
             const step = 100;
             for (let i = 0; i < allP; i++) {
