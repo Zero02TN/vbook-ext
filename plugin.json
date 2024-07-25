@@ -108,28 +108,6 @@
         "locale": "vi_VN"
         },
         {
-        "name": "VIP Truyện Full",
-        "author": "Nhocconsr",
-        "path": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/viptruyenfull/plugin.zip",
-        "version": 3,
-        "source": "https://viptruyenfull.com",
-        "icon": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/viptruyenfull/icon.png",
-        "description": "Đọc truyện trên trang https://viptruyenfull.com",
-        "type": "novel",
-        "locale": "vi_VN"
-        },
-        {
-        "name": "Truyện Tiên Hiệp",
-        "author": "Nhocconsr",
-        "path": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/truyentienhiep/plugin.zip",
-        "version": 2,
-        "source": "https://truyentienhiep.net",
-        "icon": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/truyentienhiep/icon.png",
-        "description": "Đọc truyện trên trang truyentienhiep.net",
-        "type": "novel",
-        "locale": "vi_VN"
-        },
-        {
         "name": "Tiên Vực",
         "author": "Nhocconsr",
         "path": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/tienvuc/plugin.zip",
@@ -410,17 +388,6 @@
         "locale": "zh_CN"
         },
         {
-        "name": "265xs",
-        "author": "Nhocconsr",
-        "path": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/265xs/plugin.zip",
-        "version": 1,
-        "source": "https://www.265xs.com",
-        "icon": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/265xs/icon.png",
-        "description": "Đọc truyện trên trang www.265xs.com",
-        "type": "chinese_novel",
-        "locale": "zh_CN"
-        },
-        {
         "name": "Manga Buddy",
         "author": "Nhocconsr",
         "path": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/mangabuddy/plugin.zip",
@@ -472,15 +439,6 @@
         "source": "https://www.sachhayonline.com",
         "icon": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/sachhayonline/icon.png",
         "description": "Đọc truyện trên trang sachhayonline.com"
-        },
-        {
-        "name": "Linovelib (w)",
-        "author": "Nhocconsr",
-        "path": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/linovelib/plugin.zip",
-        "version": 2,
-        "source": "https://w.linovelib.com",
-        "icon": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/linovelib/icon.png",
-        "description": "Đọc truyện trên trang w.linovelib.com"
         },
         {
         "name": "Novel Buddy",
@@ -672,15 +630,6 @@
         "source": "https://ztruyen.vn",
         "icon": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/ztruyen/icon.png",
         "description": "zTruyen.vn"
-        },
-        {
-        "name": "Truyện Mới",
-        "author": "fusornat",
-        "path": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/truyenmoii/plugin.zip",
-        "version": 3,
-        "source": "https://truyenmoii.com/",
-        "icon": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/truyenmoii/icon.png",
-        "description": "truyenmoii.com. Đọc truyện online miễn phí,đọc truyện mới,đọc truyện hay,truyện full, được cập nhật đầy đủ và nhanh nhất."
         },
         {
         "name": "docsach24",
