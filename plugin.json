@@ -73,6 +73,18 @@
         "tag": "nsfw"
         },
         {
+        "name": "Reaper Scan",
+        "author": "Nhocconsr",
+        "path": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/reaperscan/plugin.zip",
+        "version": 1,
+        "source": "https://reaper-scans.com",
+        "icon": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/reaperscan/icon.png",
+        "description": "Đọc truyện trên trang reaper-scans.com",
+        "type": "comic",
+        "locale": "en_EN",
+        "tag": "nsfw"
+        },
+        {
         "name": "Truyện Gì Hot",
         "author": "Nhocconsr",
         "path": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/truyengihot/plugin.zip",
