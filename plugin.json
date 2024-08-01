@@ -85,6 +85,18 @@
         "tag": "nsfw"
         },
         {
+        "name": "Omega Scans",
+        "author": "Nhocconsr",
+        "path": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/omegascans/plugin.zip",
+        "version": 1,
+        "source": "https://omegascans.org",
+        "icon": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/omegascans/icon.png",
+        "description": "Đọc truyện trên trang omegascans.org",
+        "type": "comic",
+        "locale": "en_EN",
+        "tag": "nsfw"
+        },
+        {
         "name": "Truyện Gì Hot",
         "author": "Nhocconsr",
         "path": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/truyengihot/plugin.zip",
