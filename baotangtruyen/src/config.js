@@ -1,4 +1,4 @@
-let BASE_URL = "https://baotangtruyen13.com";
+let BASE_URL = "https://baotangtruyen14.com";
 
 
 try {
