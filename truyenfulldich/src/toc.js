@@ -2,15 +2,15 @@ function execute(url) {
     let repsonse = fetch(url);
     if(repsonse.ok){
         let doc = repsonse.html();
-        let lastChap = doc.select(".l-chapters").select('.chapter-text').get(0).text().split(' ')[1];
+        let chap = doc.select(".list-chapter li a");
         const data = [];
-        for(var v = 1; v <= lastChap ; v++){
+        chap.forEach(e => {
             data.push({
-                name: 'Chương ' + v,
-                url: url + '/chuong-'+ v,
+                name: e.text(),
+                url: e.attr('href'),
                 host: "https://truyenfulldich.com"
             })
-        }
+        })
         return Response.success(data);
     }
     return null;
