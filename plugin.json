@@ -289,13 +289,13 @@
         "locale": "vi_VN"
         },
         {
-        "name": "Truyện Dịch Giá Rẻ",
+        "name": "Truyện Full Dịch",
         "author": "Nhocconsr",
-        "path": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/truyendichgiare/plugin.zip",
-        "version": 2,
-        "source": "http://truyendichgiare.com",
-        "icon": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/truyendichgiare/icon.png",
-        "description": "Đọc truyện trên trang Truyendichgiare.com",
+        "path": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/truyenfulldich/plugin.zip",
+        "version": 1,
+        "source": "https://truyenfulldich.com",
+        "icon": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/truyenfulldich/icon.png",
+        "description": "Đọc truyện trên trang truyenfulldich.com",
         "type": "novel",
         "locale": "vi_VN"
         },
