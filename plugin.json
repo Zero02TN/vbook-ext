@@ -16,6 +16,17 @@
         "locale": "vi_VN"
         },
         {
+        "name": "ManhuaVN [Free Chap]",
+        "author": "Nhocconsr",
+        "path": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/manhuavn/plugin.zip",
+        "version": 1,
+        "source": "https://manhuavn.top",
+        "icon": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/manhuavn/icon.png",
+        "description": "Đọc truyện trên trang manhuavn",
+        "type": "comic",
+        "locale": "vi_VN"
+        },
+        {
         "name": "LightNovel VN",
         "author": "Nhocconsr",
         "path": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/lightnovel/plugin.zip",
