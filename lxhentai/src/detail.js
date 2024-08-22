@@ -1,5 +1,5 @@
+load('config.js');
 function execute(url) {
-    load('config.js');
     url = url.replace(/^(?:https?:\/\/)?(?:[^@\n]+@)?(?:www\.)?([^:\/\n?]+)/img, BASE_URL);
     let doc = fetch(url).html()
     return Response.success({

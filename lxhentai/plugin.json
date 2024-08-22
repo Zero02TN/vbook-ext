@@ -2,10 +2,10 @@
   "metadata": {
     "name": "LxHentai",
     "author": "Nhocconsr",
-    "version": 9,
-    "source": "https://lxmanga.cfd",
+    "version": 10,
+    "source": "https://lxmanga.life",
     "regexp": "(www.)?(lxmanga|lxhentai).*?/truyen/.*",
-    "description": "Đọc truyện trên trang lxmanga.cfd",
+    "description": "Đọc truyện trên trang lxmanga.life",
     "locale": "vi-VN",
     "language": "javascript",
     "type": "comic",

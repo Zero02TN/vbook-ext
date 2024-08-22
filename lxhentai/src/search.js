@@ -1,6 +1,6 @@
+load('config.js');
 function execute(key, page) {
     if (!page) page = 1;
-    load('config.js');
     url = BASE_URL +'/tim-kiem?sort=-updated_at&filter%5Bname%5D='+key+'&filter%5Bstatus%5D=2%2C1&page='+page
     let response = fetch(url)
     if(response.ok){
