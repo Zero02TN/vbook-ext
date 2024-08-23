@@ -2,7 +2,7 @@
   "metadata": {
     "name": "【VIP】Bạch Ngọc Sách",
     "author": "Nhocconsr",
-    "version": 14,
+    "version": 15,
     "source": "https://bachngocsach.net.vn",
     "regexp": "(www.)?bachngocsach.net.vn/truyen/[0-9a-z-]+/?",
     "description": "Thêm mã như sau vào <br> let CONFIG_TOKEN = 'Nhocconsr'<br>Xong đăng nhập tài khoản vào trình duyệt VBook",
