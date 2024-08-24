@@ -222,10 +222,10 @@
         "name": "Say Hentai",
         "author": "Nhocconsr",
         "path": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/sayhentai/plugin.zip",
-        "version": 8,
-        "source": "https://sayhentai.me",
+        "version": 9,
+        "source": "https://sayhentai.one",
         "icon": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/sayhentai/icon.png",
-        "description": "Đọc truyện trên trang Sayhentai.me",
+        "description": "Đọc truyện trên trang Sayhentai.one",
         "type": "comic",
         "locale": "vi_VN",
         "tag": "nsfw"
