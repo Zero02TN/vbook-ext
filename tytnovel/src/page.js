@@ -7,12 +7,14 @@ function execute(url) {
             'client-id': 'simbo',
             'client-language': 'en',
             'client-platform': 'android',
-            'client-token': 'tyt'
+            'client-token': 'tyt',
+            'client-version': '55'
         }
     });
     if (response.ok) {
         let pages = [];
         let allP = response.json().data.chapter_count/100;
+        Console.log(allP)
         if (allP < 1){
             pages.push(`${BASE_HOST}/api/v2/chapters/numbers?story_id=${sid}&start=0&end=100`)
             return Response.success(pages);

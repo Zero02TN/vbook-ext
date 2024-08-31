@@ -7,7 +7,8 @@ function execute(url, page) {
             'client-id': 'simbo',
             'client-language': 'en',
             'client-platform': 'android',
-            'client-token': 'tyt'
+            'client-token': 'tyt',
+            'client-version': '55'
         }
     });
     if (response.ok) {
