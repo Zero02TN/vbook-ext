@@ -2,11 +2,11 @@
   "metadata": {
     "name": "LxHentai",
     "author": "Nhocconsr",
-    "version": 10,
+    "version": 11,
     "source": "https://lxmanga.life",
     "regexp": "(www.)?(lxmanga|lxhentai).*?/truyen/.*",
     "description": "Đọc truyện trên trang lxmanga.life",
-    "locale": "vi-VN",
+    "locale": "vi_VN",
     "language": "javascript",
     "type": "comic",
     "tag" : "nsfw"
