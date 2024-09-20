@@ -30,7 +30,7 @@
         "name": "LightNovel VN",
         "author": "Nhocconsr",
         "path": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/lightnovel/plugin.zip",
-        "version": 2,
+        "version": 3,
         "source": "https://lightnovel.vn",
         "icon": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/lightnovel/icon.png",
         "description": "Đọc truyện trên trang lightnovel",
