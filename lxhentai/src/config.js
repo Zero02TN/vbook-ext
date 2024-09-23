@@ -1,4 +1,4 @@
-const BASE_URL = 'https://lxmanga.life';
+const BASE_URL = 'https://lxmanga.click';
 try {
     if (CONFIG_URL) {
         BASE_URL = CONFIG_URL;
