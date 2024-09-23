@@ -525,10 +525,10 @@
         "name": "【VIP】Bạch Ngọc Sách",
         "author": "Nhocconsr",
         "path": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/vipbns/plugin.zip",
-        "version": 15,
-        "source": "http://bachngocsach.net.vn",
+        "version": 16,
+        "source": "http://bachngocsach.info",
         "icon": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/vipbns/icon.png",
-        "description": "Đọc truyện trên trang bachngocsach.net.vn"
+        "description": "Đọc truyện trên trang bachngocsach.info"
         },
         {
         "name": "Thích Truyện",
