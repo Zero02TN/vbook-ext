@@ -4,7 +4,7 @@
     "author": "Nhocconsr",
     "version": 9,
     "source": "https://hentaicube.xyz",
-    "regexp": "(www.)?hentaicube.xyz/read/.*",
+    "regexp": "(www.)?hentaicube.xyz/manga/.*",
     "description": "V9 : Fix lỗi thiếu ảnh",
     "locale": "vi_VN",
     "language": "javascript",
