@@ -2,7 +2,7 @@
   "metadata": {
     "name": "Hentai Cube",
     "author": "Nhocconsr",
-    "version": 7,
+    "version": 8,
     "source": "https://hentaicube.net",
     "regexp": "(www.)?hentaicube.net/read/.*",
     "description": "V7 : Fix lỗi thiếu ảnh",
