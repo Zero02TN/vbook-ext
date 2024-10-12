@@ -16,6 +16,17 @@
         "locale": "vi_VN"
         },
         {
+        "name": "Truyện GG",
+        "author": "Nhocconsr",
+        "path": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/truyengg/plugin.zip",
+        "version": 1,
+        "source": "https://truyengg.com",
+        "icon": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/truyengg/icon.png",
+        "description": "Đọc truyện trên trang truyengg",
+        "type": "comic",
+        "locale": "vi_VN"
+        },
+        {
         "name": "ManhuaVN [Free Chap]",
         "author": "Nhocconsr",
         "path": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/manhuavn/plugin.zip",
