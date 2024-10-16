@@ -86,10 +86,10 @@
         "name": "Fast Scan",
         "author": "Nhocconsr",
         "path": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/fastscans/plugin.zip",
-        "version": 2,
-        "source": "https://fastscansz.com",
+        "version": 3,
+        "source": "https://fastscans1.net",
         "icon": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/fastscans/icon.png",
-        "description": "Đọc truyện trên trang fastscansz.com",
+        "description": "Đọc truyện trên trang fastscans1.net",
         "type": "comic",
         "locale": "vi_VN",
         "tag": "nsfw"
