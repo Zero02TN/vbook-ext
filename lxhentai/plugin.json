@@ -2,8 +2,8 @@
   "metadata": {
     "name": "LxHentai",
     "author": "Nhocconsr",
-    "version": 12,
-    "source": "https://lxmanga.click",
+    "version": 13,
+    "source": "https://lxmanga.online",
     "regexp": "(www.)?(lxmanga|lxhentai).*?/truyen/.*",
     "description": "Đọc truyện trên trang lxmanga.click",
     "locale": "vi_VN",
