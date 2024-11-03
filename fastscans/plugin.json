@@ -2,9 +2,9 @@
   "metadata": {
     "name": "Fast Scan",
     "author": "Nhocconsr",
-    "version": 3,
-    "source": "https://fastscans1.net",
-    "regexp": "(www.)?fastscans1.net/truyen-tranh/[0-9a-z-]+",
+    "version": 4,
+    "source": "https://fastscans3.net",
+    "regexp": "(www.)?fastscans\\d+.net/truyen-tranh/[0-9a-z-]+",
     "description": "Chỉ hỗ trợ lấy truyện đã mở! Nếu có Premium thì liên hệ",
     "locale": "vi_VN",
     "language": "javascript",
