@@ -1,4 +1,5 @@
 load('crypto.js');
+load('config.js')
 function execute(url) {
     var browser = Engine.newBrowser();
     browser.launch(url, 5000);
@@ -8,7 +9,7 @@ function execute(url) {
     if(auth){
         let n = url.split('/')[3];
         let c = url.split('-').pop();
-        let base = 'https://tienvuc.vn/api/reading/'+n+'/chapters/'+c+'/content';
+        let base = BASE_URL+'/api/reading/'+n+'/chapters/'+c+'/content';
         var getc = fetch(base,{
             method : "GET",
             headers : {

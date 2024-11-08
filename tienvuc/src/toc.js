@@ -1,6 +1,7 @@
+load('config.js')
 function execute(url) {
     var slug = url.split('/').pop();
-    let reponse = fetch('https://tienvuc.vn/api/reading/'+slug+'/chapters');
+    let reponse = fetch(BASE_URL+'/api/reading/'+slug+'/chapters');
     if (reponse.ok){
         let json = reponse.json();
         let allChap = json.docs
@@ -11,7 +12,7 @@ function execute(url) {
                 name: 'Chương '+chap.num+': '+chap.name,
                 url: url+'/chuong-'+chap.num,
                 pay: buy,
-                host: "https://tienvuc.vn"
+                host: BASE_URL
             })
         });
         return Response.success(list);

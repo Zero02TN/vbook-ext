@@ -145,10 +145,10 @@
         "name": "Tiên Vực",
         "author": "Nhocconsr",
         "path": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/tienvuc/plugin.zip",
-        "version": 9,
-        "source": "https://tienvuc.vn",
+        "version": 10,
+        "source": "https://tienvuc.one",
         "icon": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/tienvuc/icon.png",
-        "description": "Đừng có sửa Author nếu bạn k tự viết script nhé!",
+        "description": "Đừng có sửa Author nếu bạn ko tự viết script nhé!",
         "type": "novel",
         "locale": "vi_VN"
         },
