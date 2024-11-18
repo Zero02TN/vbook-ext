@@ -1,6 +1,6 @@
 load('config.js');
 function execute(url) {
-    const doc = Http.get(url).html()
+    const doc = fetch(url).html()
     return Response.success({
         name: doc.select("h1").text(),
         cover: doc.select(".p-3 img").first().attr('src'),

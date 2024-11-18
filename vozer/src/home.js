@@ -7,4 +7,5 @@ function execute() {
             { title: "Xem nhiều", input: BASE_URL + "/xem-nhieu", script: "gen.js" },
             { title: "Mới nhất", input: BASE_URL + "/moi-nhat", script: "gen.js" },
     
-    ]);}
+    ]);
+}
