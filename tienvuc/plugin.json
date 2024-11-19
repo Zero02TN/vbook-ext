@@ -2,7 +2,7 @@
   "metadata": {
     "name": "Tiên Vực",
     "author": "Nhocconsr",
-    "version": 10,
+    "version": 11,
     "source": "https://tienvuc.one",
     "regexp": "(www.)?tienvuc.(vn|one)/[0-9a-z-]+/?$",
     "description": "Liên hệ Nhocconsr",

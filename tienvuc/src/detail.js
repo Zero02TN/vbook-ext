@@ -1,3 +1,4 @@
+load('config.js')
 function execute(url) {
     let slug = url.split('/').pop();
     let reponse = fetch(BASE_URL+'/api/reading/'+slug);
