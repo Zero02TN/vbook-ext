@@ -2,9 +2,9 @@
   "metadata": {
     "name": "LightNovel VN",
     "author": "Nhocconsr",
-    "version": 3,
-    "source": "https://doctruyenln.com",
-    "regexp": "(www.)?doctruyenln.com/truyen/?[0-9a-z-]+/?",
+    "version": 4,
+    "source": "https://quykiep.com",
+    "regexp": "(www.)?quykiep.com/truyen/?[0-9a-z-]+/?",
     "description": "LightNovel En",
     "locale": "vi_VN",
     "language": "javascript",
