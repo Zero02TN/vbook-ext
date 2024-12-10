@@ -1,5 +1,5 @@
 function execute() {
-    const doc = Http.get("https://klmanga.com").html();
+    const doc = fetch("https://klz9.com").html();
     const el = doc.select("ul.nav > li a");
     const data = [];
     for (var i = 3; i < el.size()-3; i++) {

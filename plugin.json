@@ -569,13 +569,13 @@
         "description": "Đọc truyện trên trang www.wuxiaworld.com"
         },
         {
-        "name": "KissAway (Raw)",
+        "name": "KissLove (Raw)",
         "author": "Nhocconsr",
         "path": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/kissaway/plugin.zip",
-        "version": 3,
-        "source": "https://klmanga.com",
+        "version": 4,
+        "source": "https://klz9.com",
         "icon": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/kissaway/icon.png",
-        "description": "Đọc truyện trên trang klmanga.com",
+        "description": "Đọc truyện trên trang klz9.com",
         "type": "comic",
         "locale": "en_EN"
         },
