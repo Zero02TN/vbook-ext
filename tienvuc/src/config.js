@@ -1,4 +1,4 @@
-let BASE_URL = "https://tienvuc.one";
+let BASE_URL = "https://tttv.pro";
 try {
     if (CONFIG_URL) {
         BASE_URL = CONFIG_URL;
