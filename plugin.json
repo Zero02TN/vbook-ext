@@ -189,10 +189,10 @@
         "name": "Truyện A",
         "author": "Nhocconsr",
         "path": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/truyena/plugin.zip",
-        "version": 5,
-        "source": "https://truyena.net",
+        "version": 6,
+        "source": "https://atruyen.net",
         "icon": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/truyena/icon.png",
-        "description": "Đọc truyện trên trang Truyena.net",
+        "description": "Đọc truyện trên trang atruyen.net",
         "type": "novel",
         "locale": "vi_VN"
         },

@@ -11,7 +11,7 @@ function execute(url, page) {
             books.push({
                 name: item.title,
                 link: nslug+'.' + item._id,
-                cover: `https://cdn.truyena.net/a/img/str/100x120/${item.img}`,
+                cover: `https://cdn.atruyen.net/a/img/str/100x120/${item.img}`,
                 description: item.author.name + ', ' + item.chapterCount + ' chương',
             });
         });
