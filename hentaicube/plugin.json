@@ -2,10 +2,10 @@
   "metadata": {
     "name": "Hentai Cube",
     "author": "Nhocconsr",
-    "version": 9,
+    "version": 10,
     "source": "https://hentaicube.xyz",
     "regexp": "(www.)?hentaicube.xyz/manga/.*",
-    "description": "V9 : Fix lỗi thiếu ảnh",
+    "description": "V10 : Fix lỗi load chương",
     "locale": "vi_VN",
     "language": "javascript",
     "type": "comic",
