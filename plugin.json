@@ -1,6 +1,6 @@
 {
   "metadata": {
-    "author": "Nhocconsr",
+    "author": "Zero02tn",
     "description": "Thích là nhích ^^!"
   },
   "data": [
@@ -231,12 +231,12 @@
       },
         {
         "name": "Say Hentai",
-        "author": "Nhocconsr",
-        "path": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/sayhentai/plugin.zip",
-        "version": 9,
-        "source": "https://sayhentai.one",
-        "icon": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/sayhentai/icon.png",
-        "description": "Đọc truyện trên trang Sayhentai.one",
+        "author": "Zero02tn",
+        "path": "https://raw.githubusercontent.com/zero02tn/vbook-ext/master/sayhentai/plugin.zip",
+        "version": 10,
+        "source": "https://sayhentai.ink",
+        "icon": "https://raw.githubusercontent.com/zero02tn/vbook-ext/master/sayhentai/icon.png",
+        "description": "Đọc truyện trên trang Sayhentai.ink",
         "type": "comic",
         "locale": "vi_VN",
         "tag": "nsfw"
