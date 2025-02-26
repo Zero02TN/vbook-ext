@@ -1,6 +1,6 @@
 function execute(key, page) {
     if (!page) page = '1';
-    let response = fetch('https://sayhentai.one/search', {
+    let response = fetch('https://sayhentai.ink/search', {
         method: "GET",
         queries: {
             s : key,
