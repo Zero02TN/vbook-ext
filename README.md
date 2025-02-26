@@ -57,7 +57,7 @@ https://raw.githubusercontent.com/zero02tn/vbook-ext/master/plugin.json
 | Reaper Scan [EN] | https://reaper-scans.com | 1 | en_EN | comic |
 | Royal Road | https://www.royalroad.com | 1 | en-EN | novel |
 | sachhayonline | https://www.sachhayonline.com/ | 2 | vi-VN | novel |
-| Say Hentai | https://sayhentai.pro | 8 | vi-VN | comic |
+| Say Hentai | https://sayhentai.ink | 8 | vi-VN | comic |
 | ST Truyện | https://sttruyen.com | 7 | vi-VN | novel |
 | STV Limited | https://sangtacviet.info | 9 | vi-VN | novel |
 | Tadu (塔读) | https://www.tadu.com | 2 | cn-CN | chinese_novel |
