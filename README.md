@@ -91,7 +91,7 @@ https://raw.githubusercontent.com/zero02tn/vbook-ext/master/plugin.json
 * Sau đó nhập link:
 
 ```
-https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/plugin.json
+https://raw.githubusercontent.com/zero02tn/vbook-ext/master/plugin.json
 ```
 ![alt](huongdan/adds.jpg)
 
