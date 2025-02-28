@@ -71,13 +71,13 @@
         "locale": "vi_VN"
         },
         {
-        "name": "LxHentai",
+        "name": "LxManga",
         "author": "Zero02tn",
         "path": "https://raw.githubusercontent.com/Zero02tn/vbook-ext/master/lxhentai/plugin.zip",
-        "version": 13,
-        "source": "https://lxmanga.online",
+        "version": 14,
+        "source": "http://lxmanga.art",
         "icon": "https://raw.githubusercontent.com/Zero02tn/vbook-ext/master/lxhentai/icon.png",
-        "description": "Đọc truyện trên trang Lxhentai",
+        "description": "Đọc truyện trên trang LxManga",
         "tag": "nsfw",
         "type": "comic",
         "locale": "vi_VN"
