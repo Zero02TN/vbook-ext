@@ -3,7 +3,7 @@ function execute(id, page) {
         return string.charAt(0).toUpperCase() + string.slice(1);
     }
     if (!page) page = '1';
-    let response = fetch("https://hamtruyen.info/danhsach/P"+page+"/index.html", {
+    let response = fetch("https://hamtruyen.net/danhsach/P"+page+"/index.html", {
         method: "GET",
         queries: {
             status : id,
@@ -20,7 +20,7 @@ function execute(id, page) {
                 link: e.select("a").attr("href"),
                 cover: e.select(".story_img").attr('style').split(/[","]/)[1],
                 description : cap(e.select(".linkchap").text()),
-                host: "https://hamtruyen.info"
+                host: "https://hamtruyen.net"
             });
         });
 
