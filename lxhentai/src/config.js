@@ -1,4 +1,4 @@
-const BASE_URL = 'http://lxmanga.art';
+let BASE_URL = 'http://lxmanga.art';
 try {
     if (CONFIG_URL) {
         BASE_URL = CONFIG_URL;
