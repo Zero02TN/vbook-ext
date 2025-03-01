@@ -167,10 +167,10 @@
         "name": "Ham Truyện",
         "author": "Zero02tn",
         "path": "https://raw.githubusercontent.com/Zero02tn/vbook-ext/master/hamtruyen/plugin.zip",
-        "version": 10,
-        "source": "https://hamtruyen.info",
+        "version": 11,
+        "source": "https://hamtruyen.net",
         "icon": "https://raw.githubusercontent.com/Zero02tn/vbook-ext/master/hamtruyen/icon.png",
-        "description": "Đọc truyện trên trang hamtruyen.info",
+        "description": "Đọc truyện trên trang hamtruyen.net",
         "type": "novel",
         "locale": "vi_VN"
         },
