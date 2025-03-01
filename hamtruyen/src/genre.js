@@ -1,5 +1,5 @@
 function execute() {
-    let response = fetch('https://hamtruyen.info');
+    let response = fetch('https://hamtruyen.net');
     if (response.ok) {
         let doc = response.html();
         const data = [];
