@@ -1,11 +1,11 @@
 {
   "metadata": {
     "name": "Ham Truyện",
-    "author": "Nhocconsr",
-    "version": 10,
-    "source": "https://hamtruyen.info",
-    "regexp": "(www.)?(m.)?hamtruyen.(info|vn)/(truyen/)?[0-9a-z-]+.html",
-    "description": "Đọc truyện tranh trên trang hamtruyenmoi.com",
+    "author": "Zero02tn",
+    "version": 11,
+    "source": "https://hamtruyen.net",
+    "regexp": "(www.)?(m.)?hamtruyen.(net|vn)/(truyen/)?[0-9a-z-]+.html",
+    "description": "Đọc truyện tranh trên trang hamtruyen.net",
     "locale": "vi-VN",
     "language": "javascript",
 	"type": "novel"
