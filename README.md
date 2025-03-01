@@ -32,7 +32,7 @@ https://raw.githubusercontent.com/zero02tn/vbook-ext/master/plugin.json
 | Fanqie Novel | https://fanqienovel.com | 12 | cn-CN | chinese_novel |
 | Fast Scan | https://fastscans.net | 1 | vi_VN | comic |
 | Giáng Thế | https://giangthe.com | 2 | vi-VN | novel |
-| Ham Truyện | https://hamtruyen.info | 10 | vi-VN | novel |
+| Ham Truyện | https://hamtruyen.net | 11 | vi-VN | novel |
 | Hentai Cube | https://hentaicube.net | 7 | vi-VN | comic |
 | Hentai Dexy | https://hentaidexy.net | 3 | en-EN | comic |
 | HentaiVN VIP | https://hentaivnhot.net/ | 3 | vi-VN | comic |
