@@ -9,7 +9,7 @@ function execute(url) {
             description: doc.select("#gioithieutruyen").html(),
             detail: 'Cập Nhật : '+doc.select(".fa-clock-o + span").first().text()+'<br>Mới Nhất : '+doc.select(".fa-bolt + a").text(),
             ongoing: doc.select(".contiep").text().indexOf("Đang") != -1,
-            host: "https://hamtruyen.info",
+            host: "https://hamtruyen.net",
             type: url.indexOf("/truyen/") > 0 ? "novel" : "comic"
         });
     }
