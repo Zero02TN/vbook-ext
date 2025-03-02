@@ -4,7 +4,7 @@
     "author": "Zero02tn",
     "version": 4,
     "source": "https://hentaivn.art/",
-    "regexp": "https://(www.)?hentaivn.(art|net)/[0-9a-z-]+/?$",
+    "regexp": "(www.)?hentaivn.(.*?)/[^/]+.html$",
     "description": "Đọc truyện Hentai tại Hentaivn.art",
     "locale": "vi-VN", 
     "language": "javascript",
