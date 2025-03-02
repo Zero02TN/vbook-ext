@@ -1,16 +1,26 @@
 function execute(key, page) {
-    load('config.js');
-    url = url.replace(/^(?:https?:\/\/)?(?:[^@\n]+@)?(?:www\.)?([^:\/\n?]+)/img, BASE_URL);
-    let doc = fetch(BASE_URL + '/truyen-hentai-moi/?q='+key).html()
-    let el = doc.select(".comics-grid .entry")
-    let data = [];
-    el.forEach(e =>data.push({
-            name: e.select("a.name").first().text(),
-            link: e.select("a.name").first().attr("href"),
-            cover: e.select("img").first().attr("src"),
-            description: e.select(".date-time").first().text(),
-            host: BASE_URL
-        })
-    )
-    return Response.success(data)
+    if (!page) page = '1';
+    let response = fetch('https://hentaivn.art/search', {
+        method: "GET",
+        queries: {
+            s : key,
+            page : page
+        }
+    });
+    if (response.ok) {
+        let doc = response.html();
+        let comiclist = [];
+        let next = doc.select(".pager").select('li.active + li').text();
+        doc.select(".page-item-detail").forEach(e => {
+            comiclist.push({
+                name: e.select("h3 a").text(),
+                link: e.select("h3 a").attr("href"),
+                cover: e.select("img.img-responsive").attr("data-src") || e.select("img.img-responsive").attr("src"),
+                description: e.select('.chapter').first().text(),
+                host: "https://hentaivn.art"
+            });
+        });
+        return Response.success(comiclist, next);
+    }
+    return null;
 }
