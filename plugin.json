@@ -242,11 +242,11 @@
         "tag": "nsfw"
         },
         {
-        "name": "HentaiVN VIP",
+        "name": "HentaiVN",
         "author": "Zero02tn",
         "path": "https://raw.githubusercontent.com/Zero02tn/vbook-ext/master/hentaivnvip/plugin.zip",
-        "version": 3,
-        "source": "https://hentaivnhot.net",
+        "version": 4,
+        "source": "https://hentaivn.art",
         "icon": "https://raw.githubusercontent.com/Zero02tn/vbook-ext/master/hentaivnvip/icon.png",
         "description": "Đọc truyện trên trang hentaivnvip.com",
         "type": "comic",
