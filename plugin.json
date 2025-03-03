@@ -253,6 +253,18 @@
         "locale": "vi_VN",
         "tag": "nsfw"
         },
+    {
+        "name": "TruyenHentaiVN",
+        "author": "Zero02tn",
+        "path": "https://raw.githubusercontent.com/Zero02tn/vbook-ext/master/truyenhentaivn/plugin.zip",
+        "version": 1,
+        "source": "https://hentaivn.art",
+        "icon": "https://raw.githubusercontent.com/Zero02tn/vbook-ext/master/truyenhentaivn/icon.png",
+        "description": "Đọc truyện trên trang truyenhentaivn.live",
+        "type": "comic",
+        "locale": "vi_VN",
+        "tag": "nsfw"
+        },
         {
         "name": "Tranh 18",
         "author": "Zero02tn",
