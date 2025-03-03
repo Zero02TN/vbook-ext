@@ -2,9 +2,9 @@
   "metadata": {
     "name": "TruyenHentaiVN",
     "author": "Zero02tn",
-    "version": 1,
+    "version": 2,
     "source": "https://truyenhentaivn.live/",
-    "regexp": "(www\\.)?truyenhentaivn\\.live/[^/]+/?",
+    "regexp": "(www.)?truyenhentaivn.live/[^/]+/?$",
     "description": "Đọc truyện Hentai tại truyenhentaivn.live",
     "locale": "vi-VN", 
     "language": "javascript",
