@@ -1,0 +1,22 @@
+{
+  "metadata": {
+    "name": "TruyenHentaiVN",
+    "author": "Zero02tn",
+    "version": 1,
+    "source": "https://truyenhentaivn.live/",
+    "regexp": "(www.)?truyenhentaivn.(.*?)/[^/]+.html$",
+    "description": "Đọc truyện Hentai tại truyenhentaivn.live",
+    "locale": "vi-VN", 
+    "language": "javascript",
+    "type": "comic",
+    "tag" : "nsfw"
+  },
+  "script": {
+    "home": "home.js",
+    "genre": "genre.js",
+    "detail": "detail.js",
+    "search": "search.js",
+    "toc": "toc.js",
+    "chap": "chap.js"
+  }
+}
