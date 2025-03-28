@@ -1,12 +1,12 @@
 {
   "metadata": {
     "name": "Vozer",
-    "author": "fusornat",
-    "version": 1,
+    "author": "Nhocconsr",
+    "version": 3,
     "source": "https://vozer.vn",
     "regexp": "https://vozer.vn/(.*?)$",
     "description": "Truyện voz",
-    "locale": "vi-VN",
+    "locale": "vi_VN",
     "language": "javascript",
     "type": "novel"
   },

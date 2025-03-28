@@ -1,6 +1,7 @@
+load('config.js')
 function execute(url) {
     let slug = url.split('/').pop();
-    let reponse = fetch('https://tienvuc.vn/api/reading/'+slug);
+    let reponse = fetch(BASE_URL+'/api/reading/'+slug);
     if (reponse.ok){
         let detail = reponse.json();
         if(detail.status === "D") var ongoing = false;
@@ -12,7 +13,7 @@ function execute(url) {
             description: detail.intro,
             detail: detail.updatedAt+'<br>Tác giả : '+detail.author.name,
             ongoing : ongoing,
-            host: "https://tienvuc.vn"
+            host: BASE_URL
         });
     }
     return null;

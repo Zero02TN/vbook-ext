@@ -2,11 +2,11 @@
   "metadata": {
     "name": "Tiên Vực",
     "author": "Nhocconsr",
-    "version": 9,
-    "source": "https://tienvuc.vn",
-    "regexp": "(www.)?tienvuc.vn/[0-9a-z-]+/?$",
-    "description": "V9: update vip",
-    "locale": "vi-VN",
+    "version": 13,
+    "source": "https://tienvuc.me",
+    "regexp": "(www.)?tienvuc.(pro|vn|one|me|com)/[0-9a-z-]+/?$",
+    "description": "Liên hệ Nhocconsr",
+    "locale": "vi_VN",
     "language": "javascript",
     "type": "novel"
   },

@@ -1,4 +1,4 @@
-let BASE_URL = "https://zingtruyen.top";
+let BASE_URL = "https://zingtruyen.store";
 try {
     if (CONFIG_URL) {
         BASE_URL = CONFIG_URL;

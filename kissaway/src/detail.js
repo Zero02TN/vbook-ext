@@ -1,5 +1,5 @@
 function execute(url) {
-    const doc = Http.get(url).html()
+    const doc = fetch(url).html()
 
     return Response.success({
         name: doc.select(".manga-info h3").text(),
@@ -9,6 +9,6 @@ function execute(url) {
         detail: doc.select("ul.manga-info > li:nth-child(4)").html(),
         category: doc.select("ul.manga-info > li:nth-child(6)").html(),
         ongoing: doc.select("ul.manga-info > li:nth-child(5)").html().indexOf("On going") > 0,
-        host: "https://klmanga.com",
+        host: "https://klz9.com",
     });
 }

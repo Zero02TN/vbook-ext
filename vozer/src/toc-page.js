@@ -1,22 +1,20 @@
 load('config.js');
-
 function execute(url) {
-    const data = [];
-    let doc = Http.get(url).html();
-    let firstPage = 1;
-    let lastPage = 1;
-
-    let tmpLastPage;
-    tmpLastPage = doc.select("nav[role=navigation] > div > span > a.py-1");
-    tmpLastPage = parseInt(tmpLastPage.last().text());
-
-    if (!isNaN(tmpLastPage)) {
-        lastPage = tmpLastPage;
-    }
-
-    for (let i = firstPage; i <= lastPage; i++) {
+    let data = [];
+    let doc = fetch(url).html();
+    const anchors = doc.select('a[href*="page_chap="]:not([rel])');
+    let lastNumber = -1;
+    anchors.forEach(anchor => {
+        const href = anchor.attr('href'); 
+        const match = href.match(/page_chap=(\d+)/);
+        if (match) {
+            const pageNumber = parseInt(match[1], 10);
+            lastNumber = Math.max(lastNumber, pageNumber);    
+        }
+    });
+    for (let i = 1; i <= lastNumber; i++) {
         data.push(url + "?pagechap=" + i);
     }
-
+    // Trả về số cuối cùng
     return Response.success(data);
 }

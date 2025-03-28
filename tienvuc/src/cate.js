@@ -1,7 +1,7 @@
+load('config.js')
 function execute(url, page) {
     if(!page) page = '1';
-    //https://tienvuc.vn/api/categories/huyen-huyen/books?slug=huyen-huyen&page=2&limit=10
-    let response = fetch('https://tienvuc.vn/api/categories/'+url+'/books', {
+    let response = fetch(BASE_URL+'/api/categories/'+url+'/books', {
         method: "GET",
         queries: {
             slug : url,
@@ -25,7 +25,7 @@ function execute(url, page) {
                 link: book.slug,
                 cover: book.cover.domain+'/'+book.cover.url,
                 description: vip+book.author.name,
-                host: 'https://tienvuc.vn',
+                host: BASE_URL,
             })
         });
         return Response.success(list, next.toString())

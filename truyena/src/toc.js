@@ -6,7 +6,7 @@ function execute(url) {
         response.json().chapters.forEach(item => {
             chapters.push({
                 name: item.title,
-                url: `https://truyena.net/api?ctl=chapter&func=getContent&bookId=${sid}&index=${item.index}&force=0`
+                url: `https://atruyen.net/api?ctl=chapter&func=getContent&bookId=${sid}&index=${item.index}&force=0`
 
             });
         });

@@ -1,9 +1,7 @@
 load('config.js');
-
 function execute(url, page) {
     if (!page) page = '1';
-    const doc = Http.get(BASE_URL + '/category/' + url + '/' +page + '.html').html();
-
+    const doc = fetch(BASE_URL + '/category/' + url + '/' +page + '.html').html();
     var next = doc.select(".pagination").select("li.active + li").text()
     const el = doc.select(".grid-stories .story-grid")
     const data = [];

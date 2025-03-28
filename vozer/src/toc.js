@@ -2,7 +2,7 @@ load('config.js');
 
 function execute(url) {
     const data = [];
-    let doc = Http.get(url).html();
+    let doc = fetch(url).html();
     
     let chapList = doc.select("table.w-full.mb-5 tr td a");
     let chapListCount = chapList.length;

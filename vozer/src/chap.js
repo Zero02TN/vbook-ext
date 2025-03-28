@@ -1,8 +1,10 @@
 function execute(url) {
-    let doc = Http.get(url).html();
-    let content = doc.select(".mb-3 .smiley").html();
+    let doc = fetch(url).html();
+    let content = doc.select(".smiley").html();
     content = content.replace(/\n/gm, '<br>')
-            .replace(/<[a-z]+ style.*?>.*?<\/[a-z]+>/gm, '')
+            .replace(/&(nbsp|amp|quot|lt|gt|bp|emsp);/g, "")
             .replace(/(<br\s*\/?>( )?){2,}/g, '<br>')
+            .replace(/<img[^>]*>/gi, '')
+            .replace(/<\/?p[^>]*>/gi, '');
     return Response.success(content);
 }
