@@ -2,8 +2,8 @@
   "metadata": {
     "name": "MonkeyD VN",
     "author": "Nhocconsr",
-    "version": 3,
-    "source": "https://monkeydtruyen.com",
+    "version": 4,
+    "source": "https://monkeyd.net.vn",
     "regexp": "(www\\.)?monkeyd(.*?)\\/[0-9a-z-]+\\.html",
     "description": "Đọc truyện MonkeyD",
     "locale": "vi-VN",
