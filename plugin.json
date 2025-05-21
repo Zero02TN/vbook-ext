@@ -63,7 +63,7 @@
         "name": "MonkeyD VN",
         "author": "Nhocconsr",
         "path": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/monkeyd/plugin.zip",
-        "version": 4,
+        "version": 5,
         "source": "https://monkeyd.net.vn",
         "icon": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/monkeyd/icon.png",
         "description": "Đọc truyện trên trang monkeyd",
