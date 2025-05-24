@@ -1,0 +1,21 @@
+{
+  "metadata": {
+    "name": "Tầm Hoan",
+    "author": "Nhocconsr",
+    "version": 1,
+    "source": "https://tamhoan.com",
+    "regexp": "(www.)?tamhoan.com/(truyen|the-loai|tim-kiem)/.*",
+    "description": "Đọc truyện trên trang tamhoan.com",
+    "locale": "vi_VN",
+    "language": "javascript",
+    "type": "novel"
+  },
+  "script": {
+    "home": "home.js",
+    "genre": "genre.js",
+    "detail": "detail.js",
+    "search": "search.js",
+    "toc": "toc.js",
+    "chap": "chap.js"
+  }
+}

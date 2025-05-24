@@ -1,0 +1,20 @@
+{
+  "metadata": {
+    "name": "Truyện Dịch Hay",
+    "author": "Nhocconsr",
+    "version": 1,
+    "source": "https://truyendichhay.com",
+    "regexp": "(www.)?truyendichhay.com/.*",
+    "description": "Đọc truyện trên trang truyendichhay.com",
+    "locale": "en-EN",
+    "language": "javascript",
+    "type" : "novel"
+  },
+  "script": {
+    "home": "home.js",
+    "detail": "detail.js",
+    "search": "search.js",
+    "toc": "toc.js",
+    "chap": "chap.js"
+  }
+}
