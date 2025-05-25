@@ -1,17 +1,12 @@
 load('config.js')
 function execute(url) {
-    let sid = url.split('-').pop()
-    let response = fetch(BASE_URL+"/Story/ListChapterByStoryID", {
-        "method": "POST",
-        "body": {StoryID: sid},
-    });
-    var doc = response.html();
-    var el = doc.select(".chapter a");
-    const data = [];
-    el.forEach(e =>
+    const sid = url.split('/').pop();
+    const json = fetch(`${BASE_API}/api/comics/${sid}/chapters`).json()
+    let data = [];
+    json.chapters.forEach(e =>
         data.push({
-            name: e.text(),
-            url:  e.select('a' ).attr("href"),
+            name: e.name,
+            url:  `${BASE_API}/comic/${sid}/${e.slug}`,
             host: BASE_URL
         })
     )

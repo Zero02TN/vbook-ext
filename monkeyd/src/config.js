@@ -1,4 +1,4 @@
-let BASE_URL = 'https://monkeyd.vn';
+let BASE_URL = 'https://monkeyd.net.vn';
 
 try {
     if (CONFIG_URL) {

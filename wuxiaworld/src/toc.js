@@ -2,7 +2,7 @@ function execute(url) {
     function capitalize(s){
         return s[0].toUpperCase() + s.slice(1);
     }
-    var doc = Http.get(url).html();
+    var doc = fetch(url).html();
 
     var el = doc.select("ul.list-chapters li").select("a");
     const data = [];

@@ -2,7 +2,7 @@
   "metadata": {
     "name": "MonkeyD VN",
     "author": "Nhocconsr",
-    "version": 5,
+    "version": 6,
     "source": "https://monkeyd.net.vn",
     "regexp": "(www\\.)?monkeyd(.*?)\\/[0-9a-z-]+\\.html",
     "description": "Đọc truyện MonkeyD",

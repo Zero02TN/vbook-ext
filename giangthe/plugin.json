@@ -2,11 +2,11 @@
   "metadata": {
     "name": "Giáng Thế",
     "author": "Nhocconsr",
-    "version": 2,
+    "version": 3,
     "source": "https://giangthe.com",
     "regexp": "(www.)?giangthe.com/truyen/\\d+",
     "description": "Fix lỗi khoảng cách chữ",
-    "locale": "vi-VN",
+    "locale": "vi_VN",
     "language": "javascript",
     "type": "novel"
   },

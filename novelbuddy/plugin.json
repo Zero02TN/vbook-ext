@@ -2,7 +2,7 @@
   "metadata": {
     "name": "Novel Buddy",
     "author": "Nhocconsr",
-    "version": 1,
+    "version": 2,
     "source": "https://novelbuddy.com",
     "regexp": "(www.)?novelbuddy.com/[0-9a-z-]+/?$",
     "description": "Mô tả",

@@ -12,6 +12,7 @@ function execute(url, page) {
                 cover = "http:" + cover;
             }
             novelList.push({
+                
                 name: e.select("a.book_name").text(),
                 link: e.select("a.book_name").first().attr("href"),
                 description: e.select('a').last().text(),

@@ -2,7 +2,7 @@
   "metadata": {
     "name": "LightNovel VN",
     "author": "Nhocconsr",
-    "version": 4,
+    "version": 5,
     "source": "https://quykiep.com",
     "regexp": "(www.)?quykiep.com/truyen/?[0-9a-z-]+/?",
     "description": "LightNovel En",

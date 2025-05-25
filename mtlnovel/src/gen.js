@@ -15,6 +15,6 @@ function execute(url, page) {
                 host: "https://www.mtlnovel.com"
             })
         }
-        return Response.success(doc, next)
+        return Response.success(data, next)
     }
 }

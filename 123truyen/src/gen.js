@@ -11,12 +11,12 @@ function execute(url, page) {
         let doc = response.html();
         let next = doc.select('ul.pagination').select('li.active + li').text();
         let data = [];
-        doc.select(".list-new .row").forEach(e => {
+        doc.select(".index-intro .item").forEach(e => {
             data.push({
-                name: e.select(".col-title h3").first().text(),
+                name: e.select(".title h3").first().text(),
                 link: e.select("a").first().attr("href"),
-                cover: e.select(".thumb img").first().attr("src").replace('-thumbw',''),
-                description: e.select(".chapter-text").first().text(),
+                cover: e.select("img").first().attr("src"),
+                description: e.select(".text-center").first().text(),
                 host: BASE_URL
             });
         });

@@ -1,12 +1,13 @@
 load('config.js')
 function execute(url) {
-    const doc = fetch(url).html()
+    const sid = url.split('/').pop();
+    const json = fetch(`${BASE_API}/comic/${sid}`).json()
     return Response.success({
-        name: doc.select("h1").text(),
-        cover: doc.select(".col-image img").first().attr('data-src'),
-        description: doc.select("#summary").text(),
-        detail: doc.select(".list-info .status").html(),
-        category: doc.select(".col-xs-12 .tr-theloai").html(),
+        name: json.name,
+        cover: BASE_API + "/thumbnails/" + json.thumbnail,
+        description: null ,
+        author: json.author,
+        detail: json.author + '<br>Creat at : ' + json.created_at,
         host: BASE_URL
     });
 }

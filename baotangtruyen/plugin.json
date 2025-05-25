@@ -1,18 +1,17 @@
 {
   "metadata": {
     "name": "Bảo Tàng Truyện",
-    "author": "fusornat",
-    "version": 6,
-    "source": "https://baotangtruyen13.com",
-    "regexp": "https://baotangtruyen13.com/truyen-tranh/[0-9a-z-]+/?$",
+    "author": "Nhocconsr",
+    "version": 8,
+    "source": "https://baotangtruyen32.top",
+    "regexp": "https://baotangtruyen32.top/truyen-tranh/[0-9a-z-]+/?$",
     "description": "Web Đọc Truyện Tranh Online lớn nhất VN ✔",
-    "locale": "vi-VN",
+    "locale": "vi_VN",
     "language": "javascript",
     "type": "comic"
   },
   "script": {
     "home": "home.js",
-    "genre": "genre.js",
     "detail": "detail.js",
     "search": "search.js",
     "toc": "toc.js",

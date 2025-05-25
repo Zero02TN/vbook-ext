@@ -1,16 +1,15 @@
 function execute(url) {
-    var nUrl = url.split('/').pop();
-    var doc = Http.get('https://novelbuddy.com/api/novels/'+nUrl+'/chapters').html();
-    var el = doc.select(".chapter-select option")
+    var sid = fetch(url).text().match(/var\s+bookId\s*=\s*(\d+)/)[1];
+    var doc = fetch(`https://novelbuddy.com/api/manga/${sid}/chapters?source=detail`).html();
+    var el = doc.select(".chapter-list li")
     const data = [];
     for (var i = 0;i < el.size(); i++) {
         var e = el.get(i);
         data.push({
-            name: e.text(),
-            url: e.attr("value"),
+            name: e.select('.chapter-title').text(),
+            url: e.select('a').attr("href"),
             host: "https://novelbuddy.com"
         })
     }
-
-    return Response.success(data);
+    return Response.success(data.reverse());
 }

@@ -11,11 +11,11 @@ function execute(url, page) {
     if (response.ok) {
         let doc = response.html();
         let next = doc.select(".pagination").select("li.active + li").text()
-        let novelList = doc.select(".booksearch").map(e => ({
-            name: e.select(".searchbooktitle").text(),
+        let novelList = doc.select(".story-search .col-lg-4").map(e => ({
+            name: e.select("span").first().text(),
             link: e.select("a").attr("href"),
             cover: e.select("img").attr("data-src"),
-            description: e.select(".searchtag").first().text(),
+            description: null,
             host: "https://giangthe.com"
         }));
         return Response.success(novelList, next);

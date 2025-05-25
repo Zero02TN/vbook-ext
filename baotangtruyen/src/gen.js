@@ -1,25 +1,22 @@
 load('config.js')
 function execute(url, page) {
     if (!page) page = '1';
-    const doc = fetch(BASE_URL,{
-        method : "GET",
-        queries : {
-            page : page,
-            typegroup : url
-        }
-    }).html()
-    var el = doc.select('#ctl00_divCenter .item')
-    var next = doc.select('.pagination li.active + li').text()
-    var data =[]
-    for (var i = 0; i < el.size(); i++) {
-        var e = el.get(i);
-        data.push({
-            name: e.select("h3 a").first().text(),
-            link: e.select("h3 a").first().attr("href"),
-            cover: e.select(".image img").first().attr("src"),
-            description: e.select(".chapter a").first().text(),
-            host: BASE_URL
-        })
+    const response = fetch(`${BASE_API}/getAllComics?page=${page}&limit=36&sort=${url}&genres=T%E1%BA%A5t+c%E1%BA%A3`);
+    if (response.ok) {
+        let json = response.json();
+        let list =[]
+        json.data.forEach(e => {
+            list.push({
+                name: e.name,
+                link: e.slug,
+                cover: BASE_API + "/thumbnails/" + e.thumbnail,
+                description: e.author,
+                host: BASE_URL
+            })
+        });
+        let next = json.pagination.current_page <= json.pagination.total_pages? (json.pagination.current_page+1).toString() : null;
+        return Response.success(list, next); 
     }
-    return Response.success(data,next)
+
+    
 }
