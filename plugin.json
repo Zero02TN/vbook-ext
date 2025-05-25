@@ -5,17 +5,6 @@
   },
   "data": [
         {
-        "name": "Vlog Truyện",
-        "author": "Nhocconsr",
-        "path": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/vlogtruyen/plugin.zip",
-        "version": 13,
-        "source": "https://vlogtruyen33.com",
-        "icon": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/vlogtruyen/icon.png",
-        "description": "Đọc truyện trên trang vlogtruyen",
-        "type": "comic",
-        "locale": "vi_VN"
-        },
-        {
         "name": "Truyện GG",
         "author": "Nhocconsr",
         "path": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/truyengg/plugin.zip",
@@ -41,7 +30,7 @@
         "name": "LightNovel VN",
         "author": "Nhocconsr",
         "path": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/lightnovel/plugin.zip",
-        "version": 4,
+        "version": 5,
         "source": "https://quykiep.com",
         "icon": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/lightnovel/icon.png",
         "description": "Đọc truyện trên trang lightnovel",
@@ -49,62 +38,15 @@
         "locale": "vi_VN"
         },
         {
-        "name": "TYT Novel",
-        "author": "Nhocconsr",
-        "path": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/tytnovel/plugin.zip",
-        "version": 3,
-        "source": "https://tytnovel.xyz",
-        "icon": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/tytnovel/icon.png",
-        "description": "Đọc truyện trên trang tytnovel",
-        "type": "novel",
-        "locale": "vi_VN"
-        },
-        {
         "name": "MonkeyD VN",
         "author": "Nhocconsr",
         "path": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/monkeyd/plugin.zip",
-        "version": 5,
+        "version": 6,
         "source": "https://monkeyd.net.vn",
         "icon": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/monkeyd/icon.png",
         "description": "Đọc truyện trên trang monkeyd",
         "type": "novel",
         "locale": "vi_VN"
-        },
-        {
-        "name": "LxHentai",
-        "author": "Nhocconsr",
-        "path": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/lxhentai/plugin.zip",
-        "version": 13,
-        "source": "https://lxmanga.online",
-        "icon": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/lxhentai/icon.png",
-        "description": "Đọc truyện trên trang Lxhentai",
-        "tag": "nsfw",
-        "type": "comic",
-        "locale": "vi_VN"
-        },
-        {
-        "name": "Fast Scan",
-        "author": "Nhocconsr",
-        "path": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/fastscans/plugin.zip",
-        "version": 5,
-        "source": "https://fastscans6.net",
-        "icon": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/fastscans/icon.png",
-        "description": "Đọc truyện trên trang Fastscans",
-        "type": "comic",
-        "locale": "vi_VN",
-        "tag": "nsfw"
-        },
-        {
-        "name": "Reaper Scan",
-        "author": "Nhocconsr",
-        "path": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/reaperscan/plugin.zip",
-        "version": 1,
-        "source": "https://reaper-scans.com",
-        "icon": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/reaperscan/icon.png",
-        "description": "Đọc truyện trên trang reaper-scans.com",
-        "type": "comic",
-        "locale": "en_EN",
-        "tag": "nsfw"
         },
         {
         "name": "Omega Scans",
@@ -119,22 +61,10 @@
         "tag": "nsfw"
         },
         {
-        "name": "Truyện Gì Hot",
-        "author": "Nhocconsr",
-        "path": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/truyengihot/plugin.zip",
-        "version": 11,
-        "source": "https://truyengihotnhat.com",
-        "icon": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/truyengihot/icon.png",
-        "description": "Đọc truyện trên trang truyengihotnhat.com",
-        "type": "comic",
-        "locale": "vi_VN",
-        "tag": "nsfw"
-        },
-        {
         "name": "123 Truyện",
         "author": "Nhocconsr",
         "path": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/123truyen/plugin.zip",
-        "version": 12,
+        "version": 13,
         "source": "https://123truyen.vn",
         "icon": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/123truyen/icon.png",
         "description": "Đọc truyện trên trang https://123truyen.vn",
@@ -149,50 +79,6 @@
         "source": "https://tienvuc.me",
         "icon": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/tienvuc/icon.png",
         "description": "Đừng có sửa Author nếu bạn ko tự viết script nhé!",
-        "type": "novel",
-        "locale": "vi_VN"
-        },
-        {
-        "name": "STV Limited",
-        "author": "Nhocconsr",
-        "path": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/stvlimit/plugin.zip",
-        "version": 9,
-        "source": "https://sangtacviet.xyz",
-        "icon": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/stvlimit/icon.png",
-        "description": "Đọc truyện trên trang sangtacviet.xyz",
-        "type": "novel",
-        "locale": "vi_VN"
-        },
-        {
-        "name": "Ham Truyện",
-        "author": "Nhocconsr",
-        "path": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/hamtruyen/plugin.zip",
-        "version": 10,
-        "source": "https://hamtruyen.info",
-        "icon": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/hamtruyen/icon.png",
-        "description": "Đọc truyện trên trang hamtruyen.info",
-        "type": "novel",
-        "locale": "vi_VN"
-        },
-        {
-        "name": "Truyện Wiki",
-        "author": "Nhocconsr",
-        "path": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/truyenwiki/plugin.zip",
-        "version": 2,
-        "source": "https://truyenwiki.net",
-        "icon": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/truyenwiki/icon.png",
-        "description": "Đọc truyện trên trang Truyenwiki.net",
-        "type": "novel",
-        "locale": "vi_VN"
-        },
-        {
-        "name": "Truyện A",
-        "author": "Nhocconsr",
-        "path": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/truyena/plugin.zip",
-        "version": 6,
-        "source": "https://atruyen.net",
-        "icon": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/truyena/icon.png",
-        "description": "Đọc truyện trên trang atruyen.net",
         "type": "novel",
         "locale": "vi_VN"
         },
@@ -222,7 +108,7 @@
         "name": "Bảo Tàng Truyện",
         "author": "fusornat",
         "path": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/baotangtruyen/plugin.zip",
-        "version": 6,
+        "version": 7,
         "source": "https://baotangtruyen14.com",
         "icon": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/baotangtruyen/icon.png",
         "description": "Đọc truyện trên trang baotangtruyen14.com",
@@ -242,18 +128,6 @@
         "tag": "nsfw"
         },
         {
-        "name": "HentaiVN VIP",
-        "author": "Nhocconsr",
-        "path": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/hentaivnvip/plugin.zip",
-        "version": 3,
-        "source": "https://hentaivnhot.net",
-        "icon": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/hentaivnvip/icon.png",
-        "description": "Đọc truyện trên trang hentaivnvip.com",
-        "type": "comic",
-        "locale": "vi_VN",
-        "tag": "nsfw"
-        },
-        {
         "name": "Tranh 18",
         "author": "Nhocconsr",
         "path": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/tranh18/plugin.zip",
@@ -266,22 +140,10 @@
         "tag": "nsfw"
         },
         {
-        "name": "Hentai Cube",
-        "author": "Nhocconsr",
-        "path": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/hentaicube/plugin.zip",
-        "version": 10,
-        "source": "https://hentaicube.xyz",
-        "icon": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/hentaicube/icon.png",
-        "description": "Đọc truyện trên trang hentaicube.xyz",
-        "tag": "nsfw",
-        "type": "comic",
-        "locale": "vi_VN"
-        },
-        {
         "name": "Giáng Thế",
         "author": "Nhocconsr",
         "path": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/giangthe/plugin.zip",
-        "version": 2,
+        "version": 3,
         "source": "https://giangthe.com",
         "icon": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/giangthe/icon.png",
         "description": "Đọc truyện trên trang giangthe.com",
@@ -307,17 +169,6 @@
         "source": "https://zingtruyen.store",
         "icon": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/zingtruyen/icon.png",
         "description": "Đọc truyện trên trang zingtruyen.store",
-        "type": "novel",
-        "locale": "vi_VN"
-        },
-        {
-        "name": "Truyện Full Dịch",
-        "author": "Nhocconsr",
-        "path": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/truyenfulldich/plugin.zip",
-        "version": 1,
-        "source": "https://truyenfulldich.com",
-        "icon": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/truyenfulldich/icon.png",
-        "description": "Đọc truyện trên trang truyenfulldich.com",
         "type": "novel",
         "locale": "vi_VN"
         },
@@ -422,18 +273,6 @@
         "locale": "zh_CN"
         },
         {
-        "name": "Manga Buddy",
-        "author": "Nhocconsr",
-        "path": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/mangabuddy/plugin.zip",
-        "version": 11,
-        "source": "https://mangaforest.me",
-        "icon": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/mangabuddy/icon.png",
-        "description": "Đọc truyện trên trang mangaforest.me",
-        "type": "comic",
-        "locale": "en_EN",
-        "tag": "nsfw"
-        },
-        {
         "name": "Manga Read",
         "author": "Nhocconsr",
         "path": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/mangaread/plugin.zip",
@@ -444,26 +283,6 @@
         "type": "comic",
         "locale": "en_EN",
         "tag": "nsfw"
-        },
-        {
-        "name": "MTL Nation",
-        "author": "Nhocconsr",
-        "path": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/mtlnation/plugin.zip",
-        "version": 2,
-        "source": "https://mtlnation.com",
-        "icon": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/mtlnation/icon.png",
-        "description": "Đọc truyện trên trang mtlnation.com",
-        "type": "novel",
-        "locale": "en_EN"
-        },
-        {
-        "name": "Việt Writer",
-        "author": "Nhocconsr",
-        "path": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/vietwriter/plugin.zip",
-        "version": 1,
-        "source": "https://vietwriter.vn",
-        "icon": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/vietwriter/icon.png",
-        "description": "Đọc truyện trên trang vietwriter.vn"
         },
         {
         "name": "SachHayOnline",
@@ -512,27 +331,6 @@
         "description": "Đọc truyện trên trang www.ciweimao.com"
         },
         {
-        "name": "Hentai Dexy",
-        "author": "Nhocconsr",
-        "path": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/hentaidexy/plugin.zip",
-        "version": 3,
-        "source": "https://hentaidexy.net",
-        "icon": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/hentaidexy/icon.png",
-        "description": "Đọc truyện trên trang hentaidexy.net",
-        "type": "comic",
-        "locale": "en_EN",
-        "tag": "nsfw"
-        },
-        {
-        "name": "Fanqie Novel",
-        "author": "Nhocconsr",
-        "path": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/fanqienovel/plugin.zip",
-        "version": 12,
-        "source": "https://fanqienovel.com",
-        "icon": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/fanqienovel/icon.png",
-        "description": "Đọc truyện trên trang fanqienovel.com"
-        },
-        {
         "name": "【VIP】Bạch Ngọc Sách",
         "author": "Nhocconsr",
         "path": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/vipbns/plugin.zip",
@@ -540,24 +338,6 @@
         "source": "http://bnsvip.net",
         "icon": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/vipbns/icon.png",
         "description": "Đọc truyện trên trang bachngocsach"
-        },
-        {
-        "name": "Thích Truyện",
-        "author": "Nhocconsr",
-        "path": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/thichtruyen/plugin.zip",
-        "version": 1,
-        "source": "https://thichtruyen.vn",
-        "icon": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/thichtruyen/icon.png",
-        "description": "Đọc truyện trên trang Thichtruyen.vn"
-        },
-        {
-        "name": "Truyện Z",
-        "author": "Nhocconsr",
-        "path": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/truyenz/plugin.zip",
-        "version": 3,
-        "source": "https://truyenz.info",
-        "icon": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/truyenz/icon.png",
-        "description": "Đọc truyện trên trang Truyenz.info"
         },
         {
         "name": "Wuxia World",
@@ -583,7 +363,7 @@
         "name": "ManhwaHentai",
         "author": "Nhocconsr",
         "path": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/manhwahentai/plugin.zip",
-        "version": 2,
+        "version": 3,
         "source": "https://manhwahentai.me",
         "icon": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/manhwahentai/icon.png",
         "description": "Đọc truyện trên trang Manhwahentai.me",
@@ -601,15 +381,6 @@
         "description": "Đọc truyện trên trang b.faloo.com"
         },
         {
-        "name": "Imiaobige",
-        "author": "Nhocconsr",
-        "path": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/imiaobige/plugin.zip",
-        "version": 4,
-        "source": "https://www.imiaobige.com",
-        "icon": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/imiaobige/icon.png",
-        "description": "Đọc truyện trên trang www.imiaobige.com"
-        },
-        {
         "name": "Tadu (塔读)",
         "author": "Nhocconsr",
         "path": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/tadu/plugin.zip",
@@ -617,24 +388,6 @@
         "source": "https://www.tadu.com",
         "icon": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/tadu/icon.png",
         "description": "Đọc truyện trên trang www.tadu.com"
-        },
-        {
-        "name": "Vlognovel",
-        "author": "fusornat",
-        "path": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/vlognovel/plugin.zip",
-        "version": 4,
-        "source": "https://vlognovel.com",
-        "icon": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/vlognovel/icon.png",
-        "description": "Vlognovel- Đọc là nghiền"
-        },
-        {
-        "name": "Truyencv",
-        "author": "Nhocconsr",
-        "path": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/truyencv/plugin.zip",
-        "version": 1,
-        "source": "https://m.truyencv.vn",
-        "icon": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/truyencv/icon.png",
-        "description": "TruyenCV là trang web đọc truyện convert"
         },
         {
         "name": "Royalroad",
