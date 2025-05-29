@@ -7,7 +7,7 @@ function execute(url) {
     if(response.ok){
         let imgs = [];
         let json = response.json().data
-        if(json.currentchap.ChapPrice > 0){
+        if(json.currentchap.ChapContent.length === 0){
             imgs.push('https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh4kgxo8Z2RBMLmkue7X7LtDmGEDLzPMNj3ex6qnaODTSeGvZtFxwjCXF4dqd9SxgWHJvBrJK5YImLR01b-iJSiSQ7KPOA-viJwSkbiZ27NSaU2Jl1UsQW6T0JcaFewv5v8yIT0aqN4hrdDs8URrTddk6Mx0MZFHIbpz0pTSUJLQ3dApoHLfRYVQj580ks/s0/thongbaocung.jpg')
             return Response.success(imgs)
         }
