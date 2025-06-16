@@ -331,15 +331,6 @@
         "description": "Đọc truyện trên trang www.ciweimao.com"
         },
         {
-        "name": "【VIP】Bạch Ngọc Sách",
-        "author": "Nhocconsr",
-        "path": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/vipbns/plugin.zip",
-        "version": 21,
-        "source": "http://bnsvip.net",
-        "icon": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/vipbns/icon.png",
-        "description": "Đọc truyện trên trang bachngocsach"
-        },
-        {
         "name": "Wuxia World",
         "author": "Nhocconsr",
         "path": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/wuxiaworld/plugin.zip",
