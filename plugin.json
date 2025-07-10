@@ -16,6 +16,15 @@
         "locale": "vi_VN"
         },
         {
+        "name": "【VIP】Bạch Ngọc Sách",
+        "author": "Nhocconsr",
+        "path": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/vipbns/plugin.zip",
+        "version": 1,
+        "source": "http://bnsvip.net",
+        "icon": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/vipbns/icon.png",
+        "description": "Đọc truyện trên trang BNS"
+        },
+        {
         "name": "ManhuaVN [Free Chap]",
         "author": "Nhocconsr",
         "path": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/manhuavn/plugin.zip",
