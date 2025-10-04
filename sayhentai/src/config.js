@@ -1,4 +1,4 @@
-let BASE_URL = 'https://sayhentai.art';
+let BASE_URL = 'https://sayhentaii.art';
 try {
     if (CONFIG_URL) {
         BASE_URL = CONFIG_URL;
