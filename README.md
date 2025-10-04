@@ -44,7 +44,7 @@ https://raw.githubusercontent.com/zero02tn/vbook-ext/master/plugin.json
 | Qimao (七猫文化) | https://www.qimao.com | 2 | zh-CN | chinese_novel |
 | Royal Road | https://www.royalroad.com | 1 | en-EN | novel |
 | sachhayonline | https://www.sachhayonline.com/ | 2 | vi-VN | novel |
-| Say Hentai | https://sayhentai.one | 9 | vi-VN | comic |
+| Say Hentai | https://sayhentai.art | 10 | vi-VN | comic |
 | ST Truyện | https://sttruyen.com | 7 | vi-VN | novel |
 | Tadu (塔读) | https://www.tadu.com | 2 | cn-CN | chinese_novel |
 | Tiên Vực | https://tienvuc.me | 13 | vi_VN | novel |
@@ -67,7 +67,7 @@ https://raw.githubusercontent.com/zero02tn/vbook-ext/master/plugin.json
 * Sau đó nhập link:
 
 ```
-https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/plugin.json
+https://raw.githubusercontent.com/zero02tn/vbook-ext/master/plugin.json
 ```
 ![alt](huongdan/adds.jpg)
 
