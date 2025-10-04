@@ -14,7 +14,7 @@ def main():
             md_file.write("Extensions cho app Vbook App.\n\n\n")
             md_file.write("Tải app tại : [Vbook App Download](https://bit.ly/vbookapp)\n\n")
             md_file.write("## Link extension\n\n")
-            md_file.write("https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/plugin.json\n\n\n")
+            md_file.write("https://raw.githubusercontent.com/zero02tn/vbook-ext/master/plugin.json\n\n\n")
             md_file.write("##List\n\n")
             md_file.write("| Name | Source | Version | Lang |\n")
             md_file.write("|------|--------|---------|------|\n")
@@ -52,7 +52,7 @@ def main():
             md_file.write("| --------------------------------------------- | --------------------------------------- |\n")
             md_file.write("| <img src='huongdan/extension.jpg' width='500'>| <img src='huongdan/add.jpg' width='500'>|\n")
             md_file.write("* Sau đó nhập link:\n\n")
-            md_file.write("```\nhttps://raw.githubusercontent.com/nhocconsr/vbook-ext/master/plugin.json\n```\n")
+            md_file.write("```\nhttps://raw.githubusercontent.com/zero02tn/vbook-ext/master/plugin.json\n```\n")
             md_file.write("![alt](huongdan/adds.jpg)\n\n")
         
         print("Markdown file created successfully.")
