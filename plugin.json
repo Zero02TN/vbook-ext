@@ -128,10 +128,10 @@
         "name": "Say Hentai",
         "author": "Zero02TN",
         "path": "https://raw.githubusercontent.com/zero02tn/vbook-ext/master/sayhentai/plugin.zip",
-        "version": 10,
-        "source": "https://sayhentaii.art",
+        "version": 11,
+        "source": "https://sayhentai.live",
         "icon": "https://raw.githubusercontent.com/zero02tn/vbook-ext/master/sayhentai/icon.png",
-        "description": "Đọc truyện trên trang Sayhentaii.art",
+        "description": "Đọc truyện trên trang Sayhentai.live",
         "type": "comic",
         "locale": "vi_VN",
         "tag": "nsfw"
